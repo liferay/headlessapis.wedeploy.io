@@ -40,6 +40,7 @@
     "clay-css": "^2.4.1",
     "clay-dropdown": "^2.2.0",
     "clay-tooltip": "^2.2.0",
+    "core-js": "^2.5.7",
     "countries-list": "^2.3.2",
     "documentation": "^8.1.2",
     "gatsby": "^2.0.36",
