@@ -19,7 +19,7 @@ class Index extends Component {
     }
 
     render() {
-        const description = "Start using Gatsby for make powerful static sites 💖";
+        const description = "Start using Liferay Headless APIs 💖";
 
         return (
             <div className="home">

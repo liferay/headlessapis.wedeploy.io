@@ -1,5 +1,7 @@
 ---
 layout: "redirect"
 redirect: "/docs/general/initial-navigation.html"
-title: "Documentation"
+title: "General"
 mainPage: false
+weight: 1
+---
