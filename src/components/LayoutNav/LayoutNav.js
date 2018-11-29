@@ -60,9 +60,6 @@ class LayoutNav extends Component {
                             <Link className="nav-link ml-3" to="/docs/">Docs</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link ml-3" to="/blog/">Blog</Link>
-                        </li>
-                        <li className="nav-item">
                             <Link className="nav-link ml-3" to="/onboarding/">Onboarding</Link>
                         </li>
                         <li className="nav-item">

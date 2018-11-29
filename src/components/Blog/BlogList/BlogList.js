@@ -35,7 +35,7 @@ export default (props) => (
                             fields {
                                 slug
                                 title
-                                date(formatString: "MMMM DD, YYYY")
+                                date
                                 description
                                 author
                                 banner
