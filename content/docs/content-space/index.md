@@ -9,25 +9,23 @@ weight: 1
 
 The following fields are currently supported:
 
-* **name**: the name of the content space
-* **availableLanguages**: available languages of the content space
+* **name**: the name of the content space.
+* **availableLanguages**: available languages of the content space.
 
 Also this model offers the links:
 
-* **creator**: the user creator of this content space
-* **documentsRepository**
-* **webSite**
-* **keywords**
-* **formStructures**
-* **forms**
-* **vocabularies**
-* **blogPosts**
-* **structuredContents**
-* **contentStructures**
+* **creator**: the user creator of this content space.
+* **documentsRepository** : it provides access to the document library stored in this content space.
+* **webSite** : the site that this content space belongs to. 
+* **keywords** : the collection of tags defined within the content space.
+* **formStructures** : 
+* **forms** : the collection of forms created in this content space.
+* **vocabularies** : the collection of vocabularies defined within the content space.
+* **blogPosts** : the collection of blog posts created in this content space.
+* **structuredContents** : the collection of structured contents created in this content space.
+* **contentStructures** : the collection of structures defined in this content space.
 
 ## Content Spaces Collection
-
-This Endpoint supports [pagination](/docs/general.html#pagination).
 
 This is an example of a request: 
 
@@ -115,4 +113,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-Navigating through the list of entities, the link to each entity can be found with the rel `self`
+When navigating through the list of entities, the link to each entity can be found with the rel `self`
