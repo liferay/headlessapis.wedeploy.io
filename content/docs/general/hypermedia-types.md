@@ -7,9 +7,9 @@ weight: 6
 
 ## Supported Hypermedia types
 
-In order to select the Hypermedia type of the request. The header [Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) should be provided.
+In order to select the Hypermedia type of the request, the [Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) header should be provided.
 
-If no header `Accept` is provided, `application/ld+json` will be used by default. 
+If no `Accept` header is provided, `application/ld+json` will be returned by default. 
 
 For example, in order to receive the response in `json HAL` format:
 
