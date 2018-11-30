@@ -114,3 +114,5 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 ```
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`
+
+You can found more examples in the following [link](/docs/content-space/examples.html).

@@ -48,3 +48,5 @@ found inside the section `_links` with the keys `organization` or `roles`.
 These URLs allow us to obtain the entities (`GET` method).
 
 When navigating through a collection of entities, the link to each entity can be found with the rel `self`. 
+
+You can found more examples in the following [link](/docs/general/examples.html).
