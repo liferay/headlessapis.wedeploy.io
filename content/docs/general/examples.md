@@ -1,5 +1,5 @@
 ---
-mainPage: true
+mainPage: false
 title: Examples
 description: Examples with Liferay Headless APIs
 weight: 1

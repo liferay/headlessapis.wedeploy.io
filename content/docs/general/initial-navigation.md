@@ -1,5 +1,5 @@
 ---
-mainPage: true
+mainPage: false
 title: Initial Navigation to obtain URLs
 description: Initial Navigation to obtain URLs with Liferay Headless APIs
 weight: 6

@@ -1,5 +1,5 @@
 ---
-mainPage: true
+mainPage: false
 title: Sorting
 description: Sorting with Liferay Headless APIs
 weight: 2

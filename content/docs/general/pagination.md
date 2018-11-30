@@ -1,5 +1,5 @@
 ---
-mainPage: true
+mainPage: false
 title: Pagination
 description: Pagination with Liferay Headless APIs
 weight: 4

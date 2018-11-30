@@ -1,5 +1,5 @@
 ---
-mainPage: true
+mainPage: false
 title: Filtering
 description: Filtering with Liferay Headless APIs
 weight: 3
