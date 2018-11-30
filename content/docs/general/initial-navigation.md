@@ -7,7 +7,7 @@ weight: 6
 
 URLs are not part of this API, they may change at any moment. URLs must be asked to the service before making any request.
 
-The URLs can be obtained making a request to `/o/apio`.
+The URLs belonging to the entry point can be obtained making a request to `/o/api`.
 
 Different [hypermedia formats](/docs/general/hypermedia-types.html) are supported for the response.
 
@@ -41,10 +41,10 @@ The response in `json HAL` format will contain a `_links` object with the differ
 }
 ```
 
-The template URLs for managing collections such as Organization or Roles can be
+The URLs for managing collections such as Organization or Roles can be
 found inside the section `_links` with the keys `organization` or `roles`.
-(These keys are our API and they will never change). 
+(These keys are our API and they do not change). 
 
-These URLs allow us to build URLs that can always be used to obtain the entities (`GET` method).
+These URLs allow us to obtain the entities (`GET` method).
 
-Navigating through a collection of entities, the link to each entity can be found with the rel `self`. 
+When navigating through a collection of entities, the link to each entity can be found with the rel `self`. 
