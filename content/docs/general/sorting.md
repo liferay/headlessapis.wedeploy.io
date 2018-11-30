@@ -7,8 +7,12 @@ weight: 2
 
 ## Sorting
 
+Not all collections allow sorting.
+
+<!---
 Not all collections allow sorting. The ones that support it will contain the 
 optional parameter `{lb}?sort{rb}` in their template.
+-->
 
 e.g. Given a url for a Collection (such as `http://localhost:8080/o/api/p/content-space/20199/structured-contents`)
 I could sort the results by title appending to the url `?sort=title`
@@ -20,7 +24,7 @@ e.g. I could sort the results by title descending, appending to the url `?sort=t
 
 I could also sort by more than one field, separating the fields by commas.
 In this situation, the first parameter found is used to sort, and in case of coincidence,
-the next parameter in the list is used to sort and so on. 
+the following parameter in the list is used to sort and so on. 
 
 e.g. I could sort the results by the title of the Structured Content, and in case of coincidence
 then order by the Date of creation appending this to the url: `sort=title,dateCreated`
