@@ -1,9 +1,9 @@
 ---
-description: You have finished the guide!
-title: Success
-stepNumber: 4
+description: Examples!
+title: Start calling the Liferay Headless APIs 
+stepNumber: 2
 ---
 
-For more details access the documentation [here](/docs/).
+You can see some examples of the consumption of the APIs [here](/docs/general/examples.html).
 
 ![end](/images/end.gif)
