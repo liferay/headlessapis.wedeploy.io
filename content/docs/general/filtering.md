@@ -49,6 +49,16 @@ can use the optional parameter filter following a subset of the oData standard.
 |---------- |------------ |------------------------------|
 | contains  | Contains    |contains(title,'edmon')|
 
+## Lambda Operators
+Lambda operators evaluate a boolean expression on a collection. 
+They must be prepended with a navigation path that identifies a collection.
+
+| Lambda Operator  | Description | Example                                |
+|----------------- |------------ |----------------------------------------|
+| any              | Any         |keywords/any(k: contains(k,'substring1')|
+
+The any operator applies a boolean expression to each member of a collection and evaluates to true if the expression is true for any member of the collection. 
+
 ## Escaping in queries:
 
 In order to filter for a value which contains single quotes, these can
