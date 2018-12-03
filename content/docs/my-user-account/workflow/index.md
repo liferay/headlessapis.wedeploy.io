@@ -1,7 +1,7 @@
 ---
 mainPage: true
-title: Workflow
-description: Workflow Endpoint documentation
+title: Workflow Tasks
+description: Workflow Tasks Endpoint documentation
 weight: 2
 ---
 
@@ -38,7 +38,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, the user logged under the key `WorkflowTask`.
+The response in `json HAL` format will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
 
 ```json
 {
@@ -95,7 +95,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, the user logged under the key `WorkflowTask`.
+The response in `json HAL` format will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
 
 ```json
 {
@@ -146,7 +146,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 }
 ```
 
-
-## Workflow Collection
+When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
 You can found more examples in the following [link](/docs/my-user-account/workflow/examples.html).

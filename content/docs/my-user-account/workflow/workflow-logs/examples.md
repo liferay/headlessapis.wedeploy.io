@@ -1,7 +1,7 @@
 ---
 mainPage: false
 title: Examples
-description: Examples of Calls to Workflow Tasks
+description: Examples of Calls to Workflow Logs
 weight: 1
 ---
 
