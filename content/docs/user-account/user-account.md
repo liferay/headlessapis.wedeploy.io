@@ -27,13 +27,6 @@ Also this model offers the following links:
 * **tasksAssignedToMe**: the list of the tasks assigned to the user.
 * **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
 
-The model also have the contact information:
-
-* **address**: the list of postal addresses of the user.
-* **email**: the list of email addresses of the user.
-* **telephone**: the list of telephones of the user.
-* **webUrl**: the list of user's webs.
-
 ## My User Account Collection
 
 This is an example of the request: 
