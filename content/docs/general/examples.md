@@ -18,3 +18,5 @@ All this examples can be executed using [Postman](https://www.getpostman.com/).
 * Content Structures [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cfa24938c5ac3c5ab455)
 
 * Structured Content [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cfa24938c5ac3c5ab455)
+
+* Workflow [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/af6478f6e31b608cae9c)
