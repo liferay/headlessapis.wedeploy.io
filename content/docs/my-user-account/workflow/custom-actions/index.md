@@ -96,4 +96,6 @@ curl --request POST \
   --data '{"dueDate": "2018-12-31T23:59Z", "comment": "This is a comment"}'
 ```
 
+When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+
 You can found more examples in the following [link](/docs/my-user-account/workflow/custom-actions/examples.html).

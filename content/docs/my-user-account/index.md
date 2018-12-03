@@ -34,6 +34,8 @@ The model also have the contact information:
 * **telephone**: the list of telephones of the user.
 * **webUrl**: the list of user's webs.
 
+## My User Account Collection
+
 This is an example of the request: 
 
 ```bash

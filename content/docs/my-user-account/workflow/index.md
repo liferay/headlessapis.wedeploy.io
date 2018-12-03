@@ -28,6 +28,8 @@ The model also have the information about the object involved:
   * **identifier**: the object's URL.
   * **resourceType**: the object's type (e.g.: `Comment` or `BlogPosting`).
 
+## Workflow Tasks Collections
+
 ### Tasks assigned to me
 
 This is an example of the request: 
