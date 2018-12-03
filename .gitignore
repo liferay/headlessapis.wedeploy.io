@@ -67,3 +67,6 @@ package-lock.json
 # idea
 .idea
 *.iml
+
+# vscode
+.vscode
