@@ -20,7 +20,7 @@ The following fields are currently supported:
 
 Also this model offers the following links:
 
-* **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow-logs/index.html).
+* **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow/workflow-logs/index.html).
 
 The model also have the information about the object involved:
 
