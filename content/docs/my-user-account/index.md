@@ -34,6 +34,8 @@ The model also have the contact information:
 * **telephone**: the list of telephones of the user.
 * **webUrl**: the list of user's webs.
 
+## My User Account Collection
+
 This is an example of the request: 
 
 ```bash
@@ -118,7 +120,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 }
 ```
 
-
-## My User Accounts Collection
+When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
 You can found more examples in the following [link](/docs/my-user-account/examples.html).
