@@ -63,3 +63,7 @@ yarn-error.log
 
 # node chache
 package-lock.json
+
+# idea
+.idea
+*.iml
