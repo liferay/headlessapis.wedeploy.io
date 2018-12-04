@@ -7,7 +7,7 @@ weight: 1
 
 ## Examples
 
-All this examples can be executed using [Postman](https://www.getpostman.com/).
+All these examples can be executed using [Postman](https://www.getpostman.com/).
 
 * Root Endpoint [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b0dd6a99c5416d9703f3)
 
