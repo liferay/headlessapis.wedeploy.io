@@ -1,5 +1,3 @@
-# Liferay Headless APIs Documentation🚀
-
 # Documentation
 This documentation project has been created from gatsby-boilerplate.
 
