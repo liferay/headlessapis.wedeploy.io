@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Examples
 description: Examples of Calls to Workflow Tasks Custom Actions
 weight: 1

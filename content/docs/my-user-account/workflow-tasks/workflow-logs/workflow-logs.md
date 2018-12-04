@@ -1,5 +1,4 @@
 ---
-mainPage: true
 title: Workflow Logs
 description: Workflow Logs Endpoint documentation
 weight: 2
@@ -84,4 +83,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/my-user-account/workflow/workflow-logs/examples.html).
+You can found more examples in the following [link](/docs/my-user-account/workflow-tasks/workflow-logs/examples.html).
