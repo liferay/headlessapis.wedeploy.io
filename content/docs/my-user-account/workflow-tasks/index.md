@@ -20,7 +20,7 @@ The following fields are currently supported:
 
 Also this model offers the following links:
 
-* **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow/workflow-logs/index.html).
+* **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow-tasks/workflow-logs/index.html).
 
 The model also have the information about the object involved:
 
@@ -150,4 +150,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/my-user-account/workflow/examples.html).
+You can found more examples in the following [link](/docs/my-user-account/workflow-tasks/examples.html).

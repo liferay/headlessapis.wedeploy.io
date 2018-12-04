@@ -98,4 +98,4 @@ curl --request POST \
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/my-user-account/workflow/custom-actions/examples.html).
+You can found more examples in the following [link](/docs/my-user-account/workflow-tasks/custom-actions/examples.html).
