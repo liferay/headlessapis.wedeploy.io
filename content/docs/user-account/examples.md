@@ -1,6 +1,6 @@
 ---
 mainPage: false
-title: Examples
+title: User Account Examples
 description: Examples of Calls to User Account API
 weight: 1
 ---
