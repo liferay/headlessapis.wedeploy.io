@@ -30,7 +30,7 @@ Also this model offers the following links:
 The model also have the contact information:
 
 * **address**: the list of postal addresses of the user.
-* **email**: the list of email addresses of the user.
+* **email**: the list of additional email addresses of the user.
 * **telephone**: the list of telephones of the user.
 * **webUrl**: the list of user's webs.
 
@@ -122,4 +122,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/my-user-account/examples.html).
+You can find more examples in the following [link](/docs/my-user-account/examples.html).
