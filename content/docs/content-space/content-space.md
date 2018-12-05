@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: Content Space
 description: Content Space Endpoint documentation
-weight: 1
+weight: 2
 ---
 
 ## The Content Space Model

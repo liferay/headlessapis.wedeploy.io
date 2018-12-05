@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: User Account
 description: User Account Endpoint documentation
-weight: 2
+weight: 1
 ---
 
 ## The User Account Model

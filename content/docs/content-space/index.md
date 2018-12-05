@@ -3,5 +3,5 @@ layout: "redirect"
 redirect: "/docs/content-space/content-space.html"
 title: "Content Space"
 mainPage: false
-weight: 5
+weight: 1
 ---

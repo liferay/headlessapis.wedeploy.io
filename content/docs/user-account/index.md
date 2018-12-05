@@ -3,5 +3,5 @@ layout: "redirect"
 redirect: "/docs/user-account/user-account.html"
 title: "User Account"
 mainPage: false
-weight: 6
+weight: 9
 ---
