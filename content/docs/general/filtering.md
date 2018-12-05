@@ -12,7 +12,7 @@ optional parameter `?filter` in their template.
 -->
 
 In order to filter a collection based on the value of one or more fields, you
-can use the optional parameter filter following a subset of the oData standard.
+can use the optional parameter `filter` following a subset of the oData standard.
 
 ## Comparison Operators
 
