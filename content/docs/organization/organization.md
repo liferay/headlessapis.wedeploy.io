@@ -10,7 +10,7 @@ weight: 1
 The following fields are currently supported:
 
 * **name**: the name of the organization.
-* **contactInformation**: the contact information of the organization.
+* **contanct information**: the contact information of the organization.
     * **address**: the list of addresses of this organization.
     * **email**: the list of emails of this organization.
     * **telephone**: the list of telephones of this organization.

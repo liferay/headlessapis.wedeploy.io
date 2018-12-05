@@ -2,7 +2,7 @@
 mainPage: false
 title: Filtering
 description: Filtering with Liferay Headless APIs
-weight: 1
+weight: 3
 ---
 
 Not all collections allow filtering.

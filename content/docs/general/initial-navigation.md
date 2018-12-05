@@ -1,7 +1,8 @@
 ---
+mainPage: false
 title: Initial Navigation to obtain URLs
 description: Initial Navigation to obtain URLs with Liferay Headless APIs
-weight: 1
+weight: 6
 ---
 
 URLs are not part of this API, they may change at any moment. URLs must be asked to the service before making any request.
