@@ -20,9 +20,9 @@ The following fields are currently supported:
 
 Also this model offers the following links:
 
-* **roles**: the user's roles collection.
-* **myOrganizations**: the list of organizations that the user is member.
-* **myWebSites**: the list of web sites that the user is member.
+* **roles**: the collection of roles that the user has assigned.
+* **myOrganizations**: the list of organizations that the user is member of.
+* **myWebSites**: the list of web sites that the user is member of.
 * **tasksAssignedToMe**: the list of the tasks assigned to the user.
 * **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
 
@@ -114,4 +114,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/my-user-account/examples.html).
+You can find more examples in the following [link](/docs/my-user-account/examples.html).
