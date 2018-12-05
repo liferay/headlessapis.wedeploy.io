@@ -12,7 +12,7 @@ The following fields are currently supported:
 * **name**: the name of the role.
 * **dateCreated**: the creation date of the role.
 * **dateModified**: the modification date of the role.
-* **roleType**: the type date of the role.
+* **roleType**: the type of the role.
 * **availableLanguages**: available languages of the role.
 
 Also this model offers the following links:
@@ -80,4 +80,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/roles/examples.html).
+You can find more examples in the following [link](/docs/roles/examples.html).
