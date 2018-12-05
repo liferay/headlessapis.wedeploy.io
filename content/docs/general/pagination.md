@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: Pagination
 description: Pagination with Liferay Headless APIs
-weight: 4
+weight: 1
 ---
 
 Every collection URL is paginated. It is possible to customize the number of elements per page as well as requesting a specific page of the collection using the optional params `page` and `per_page`.

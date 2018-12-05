@@ -2,7 +2,7 @@
 mainPage: false
 title: Sorting
 description: Sorting with Liferay Headless APIs
-weight: 2
+weight: 1
 ---
 
 ## Sorting
