@@ -15,11 +15,11 @@ The following fields are currently supported:
 
 Also this model offers the following links:
 
-* **contentSpace**: the content space this web site belongs to.
+* **contentSpace**: the content space with all the contents stored in this web site.
 * **creator**: the user creator of this web site.
 * **members**: the list of users that belongs to this web site.
 * **embeddedWebPages**: the list of the embedded web pages that belongs to this web site.
-* **webSite** : the site that this web site belongs to. 
+* **webSite** : the list of child sites of this web site. 
 
 ## My Web Site Collection
 
@@ -91,4 +91,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`.
 
-You can found more examples in the following [link](/docs/web-site/examples.html).
+You can find more examples in the following [link](/docs/web-site/examples.html).
