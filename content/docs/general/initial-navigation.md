@@ -5,7 +5,7 @@ description: Initial Navigation to obtain URLs with Liferay Headless APIs
 weight: 6
 ---
 
-URLs are not part of this API, they may change at any moment. URLs must be asked to the service before making any request.
+We recommend to not hardcode the URLs as they may change in the future. URLs must be asked to the service before making any request.
 
 The URLs belonging to the entry point can be obtained making a request to `/o/api`.
 
@@ -49,4 +49,4 @@ These URLs allow us to obtain the entities (`GET` method).
 
 When navigating through a collection of entities, the link to each entity can be found with the rel `self`. 
 
-You can found more examples in the following [link](/docs/general/examples.html).
+You can find more examples in the following [link](/docs/general/examples.html).
