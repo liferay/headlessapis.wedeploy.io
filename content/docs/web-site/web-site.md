@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Web Site
 description: Web Site Endpoint documentation
 weight: 1
