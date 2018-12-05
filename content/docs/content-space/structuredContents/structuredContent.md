@@ -12,29 +12,29 @@ The following fields are currently supported:
 * **title**: the title of the structured content.
 * **availableLanguages**: available languages of the content space.
 * **dateCreated**: the date of creation of the structured content.
-* **dateModified**: the date of last modification of the structured content.
+* **dateModified**: the date of the last modification of the structured content.
 * **datePublished**: the date of publication of the structured content.
-* **keywords**: the keywords of this structured content.
-* **values**: a list of values of the structured content. Every value has the following fields:
+* **keywords**: the keywords assigned to this structured content.
+* **values**: a list of the dynamic fields defined in the structure with its values. Every value has the following fields:
   * **label**:
-  * **name**:
-  * **value**:
-  * **dataType**:
-  * **inputControl**:
-  * **filterAndSortIdentifier**: this is optional field, only will be shown when the value can be filterable and sortable.
-
+  * **name**: the name of the dynamic field as it is defined in the structure used by the content
+  * **value**: the value of the field set by the content creator
+  * **dataType**: the datatype of the field defined in the structure, such as: `string`, `boolean`, `date`, etc
+  * **inputControl**: for fields of `string`datatype, it shows the type of input control used, for example: `radio`, `select`, etc
+  * **filterAndSortIdentifier**: this is an optional field, only shown when it is possible to filer or sort by this value. This is the key that needs to be used in the URL to obtain results.
+  
 Also this model offers the links:
 
 * **creator**: the user creator of this content space.
 * **contentSpace** :  the content space that this structured content belongs to. 
-* **aggregateRating** : 
+* **aggregateRating** : the average rating of this structured content.
 * **contentStructure** : the content structure that this structured content belongs to. 
-* **category** : 
-* **comment** : 
+* **category** : the collection of categories assigned to this structured content.
+* **comment** : the collection of comments the users have written about this structured content.
 
 ## Structured Contents Collection
 
-This API supports [pagination](/docs/general/pagination.html), [sorting](/docs/general/sorting.html) and [filtering](/docs/general/filtering.html).
+This API supports [pagination](/docs/general/pagination.html), [sorting](/docs/general/sorting.html) and [filtering](/docs/general/filtering.html). Additionally, this API supports localization. In order to retrieve the structured content in a given language, include the `Accept-language`http header with one of the available languages for that content in particular.
 
 This is an example of a request: 
 
@@ -135,4 +135,4 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 
 When navigating through the list of entities, the link to each entity can be found with the rel `self`
 
-You can found more examples in the following [link](/docs/content-space/structuredContent/examples.html).
+You can find more examples in the following [link](/docs/content-space/structuredContent/examples.html).
