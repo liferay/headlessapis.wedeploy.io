@@ -5,14 +5,13 @@ description: Filtering with Liferay Headless APIs
 weight: 3
 ---
 
-Not all collections allow filtering.
+It's often useful to filter large collections for the exact data that you need. Not all collections, however, allow filtering. 
 <!---
 Not all collections allow filtering. The ones that support it will contain the 
 optional parameter `?filter` in their template.
 -->
 
-In order to filter a collection based on the value of one or more fields, you
-can use the optional parameter `filter` following a subset of the oData standard.
+To filter a collection based on the value of one or more fields, use the optional parameter `filter` following a subset of the oData standard.
 
 ## Comparison Operators
 
@@ -35,7 +34,7 @@ can use the optional parameter `filter` following a subset of the oData standard
 |or |Logical or |price le 3.5 or price gt 200            |
 |not' |Logical not |not (price le 3.5)|
 
-' The operator `not` needs a space character after it to work.
+The `not` operator needs a space character after it.
 
 ## Grouping Operators
 
@@ -50,21 +49,20 @@ can use the optional parameter `filter` following a subset of the oData standard
 | contains  | Contains    |contains(title,'edmon')|
 
 ## Lambda Operators
-Lambda operators evaluate a boolean expression on a collection. 
-They must be prepended with a navigation path that identifies a collection.
+
+Lambda operators evaluate a boolean expression on a collection. They must be prepended with a navigation path that identifies a collection.
 
 | Lambda Operator  | Description | Example                                |
 |----------------- |------------ |----------------------------------------|
 | any              | Any         |keywords/any(k: contains(k,'substring1')|
 
-The any operator applies a boolean expression to each member of a collection and evaluates to true if the expression is true for any member of the collection. 
+The `any` operator applies a boolean expression to each collection member and evaluates to `true` if the expression is true for any member. 
 
-## Escaping in queries:
+## Escaping in Queries
 
-In order to filter for a value which contains single quotes, these can
-be escaped by adding two single quotes.
+You can escape a single quote in a value by adding another single quote. 
 
-e.g. To filter for a company whose name is `L'Oreal`:
+For example, to filter for a company whose name is `L'Oreal`:
 ```
 ?filter=(title eq 'L''Oreal')
 ```

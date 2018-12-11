@@ -5,7 +5,7 @@ description: Pagination with Liferay Headless APIs
 weight: 4
 ---
 
-Every collection URL is paginated. It is possible to customize the number of elements per page as well as requesting a specific page of the collection using the optional params `page` and `per_page`.
+Responses containing collections are paginated. To customize the number of elements per page or request a specific page, use the optional parameters `per_page` and `page`, respectively. 
 
 ## Example
 
@@ -17,7 +17,7 @@ curl --request GET \
 
 ```
 
-Http response:
+In the response, the `_links` block contains links to the other pages in the collection. The `page` block contains the total number of existing elements:
 ```json
 {
     "total": 2,
@@ -92,6 +92,3 @@ Http response:
     }
 }
 ```
-
-From this response, you can obtain the total number of existing elements under the `page` block and also
-the links to the other pages of the collection for content spaces.

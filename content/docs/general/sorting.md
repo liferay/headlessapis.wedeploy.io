@@ -7,29 +7,19 @@ weight: 2
 
 ## Sorting
 
-Not all collections allow sorting.
+Sorting collection results is another common task. Note, however, that not all collections allow sorting. 
 
 <!---
 Not all collections allow sorting. The ones that support it will contain the 
 optional parameter `{lb}?sort{rb}` in their template.
 -->
 
-e.g. Given a URL for a Collection (such as `http://localhost:8080/o/api/p/content-space/20199/structured-contents`)
-It is possible to sort the results by title appending to the URL `?sort=title`
+To get sorted collection results, append `?sort=<param-name>` to the request URL. For example, appending `?sort=title` to the request URL sorts the results by title. 
 
-By default, the sorting is in ascending order. (0-1-A-Z). However, this can be changed
-adding `desc` after the parameter name separated with a `:`.
+The default sort order is ascending (0-1, A-Z). To perform a descending sort, append `:desc` to the parameter name. For example, to perform a descending sort by title, append `?sort=title:desc` to the request URL. 
 
-e.g. To sort the results by title descending, appending to the url `?sort=title:desc`
+To sort by more than one parameter, separate the parameter names by commas and put them in order of priority. For example, to sort first by title and then by creation date, append `?sort=title,dateCreated` to the request URL. 
 
-It is also possible to sort by more than one field, separating the fields by commas.
-In this situation, the first parameter found is used to sort, and in case of coincidence,
-the following parameter in the list is used to sort and so on. 
-
-e.g. To sort the results by the title of the Structured Content, and in case of coincidence
-then order by the Date of creation appending this to the url: `sort=title,dateCreated`
-
-If It is needed to change the order to descending for one of the fields, then It is necessary 
-to separate the parameters in this way:
+To specify a descending sort for only one parameter, you must explicitly specify ascending sort order (`:asc`) for the other parameters. For example: 
 
 `?sort=title:desc,dateCreated:asc`

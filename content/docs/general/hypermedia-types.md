@@ -1,28 +1,27 @@
 ---
 mainPage: false
-title: Supported Hypermedia types
+title: Supported Hypermedia Types
 description: Supported Hypermedia types with Liferay Headless APIs
 weight: 6
 ---
 
-## Supported Hypermedia types
+## Supported Hypermedia Types
 
-In order to select the Hypermedia type of the request, the [Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) header should be provided.
+The default hypermedia response format is JSON-LD (`application/ld+json`). To use a different format, you must specify it in the request's [Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) header. 
 
-If no `Accept` header is provided, `application/ld+json` will be returned by default. 
-
-For example, in order to receive the response in `json HAL` format:
+For example, this specifies the JSON-HAL format:
 
 ```http request
 Accept: application/hal+json
 ```
-Currently the following formats are supported:
+
+The following formats are supported:
 
 * **JSON**: `application/json`
 * **JSON-LD**: [`application/ld+json`](https://json-ld.org/)
 * **JSON-HAL**: [`application/hal+json`](http://stateless.co/hal_specification.html)
 
-These are examples of requests with the different formats:
+Here are examples of requests that specify the different formats: 
 
 ```json
 curl --request GET \
@@ -44,7 +43,7 @@ curl --request GET \
 
 ```
 
-These are examples of responses with the different formats:
+And here are examples of the responses in different formats: 
 
 ```json
 {

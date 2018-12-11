@@ -1,17 +1,13 @@
 ---
 mainPage: false
-title: Initial Navigation to obtain URLs
+title: Initial Navigation to Obtain URLs
 description: Initial Navigation to obtain URLs with Liferay Headless APIs
 weight: 6
 ---
 
-We recommend to not hardcode the URLs as they may change in the future. URLs must be asked to the service before making any request.
+First, you must get a list of the URLs you can make requests to. To get a list of URLs available at the API's entry point, make a request to `/o/api`. Note that it's important not to hardcode URLs in future requests, as they may change.
 
-The URLs belonging to the entry point can be obtained making a request to `/o/api`.
-
-Different [hypermedia formats](/docs/general/hypermedia-types.html) are supported for the response.
-
-The response in `json HAL` format will contain a `_links` object with the different links to be used. For example: 
+Different [hypermedia formats](/docs/general/hypermedia-types.html) are supported for the response. These formats represent results differently. For example, responses in the JSON-HAL format have a `_links` object that contains the available URLs: 
 
 ```json
 {
@@ -41,12 +37,6 @@ The response in `json HAL` format will contain a `_links` object with the differ
 }
 ```
 
-The URLs for managing collections such as Organization or Roles can be
-found inside the section `_links` with the keys `organization` or `roles`.
-(These keys are our API and they do not change). 
-
-These URLs allow us to obtain the entities (`GET` method).
-
-When navigating through a collection of entities, the link to each entity can be found with the rel `self`. 
+The `organization` and `roles` keys in this response each contain a URL for retrieving the Organizations and Roles in the portal, respectively. Note that requests to these URLs return a collection of entities (e.g., a collection of the portal's Roles). When navigating a collection, the `self` key contains the requested resource. 
 
 You can find more examples in the following [link](/docs/general/examples.html).
