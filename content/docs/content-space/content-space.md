@@ -4,29 +4,29 @@ description: Content Space Endpoint documentation
 weight: 2
 ---
 
-## The Content Space Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
-* **name**: the name of the content space.
-* **availableLanguages**: available languages of the content space.
+* **name**: The content space's name.
+* **availableLanguages**: The content space's available languages.
 
-Also this model offers the links:
+The model also has these links:
 
-* **creator**: the user creator of this content space.
-* **documentsRepository** : it provides access to the document library stored in this content space.
-* **webSite** : the site that this content space belongs to. 
-* **keywords** : the collection of tags defined within the content space.
-* **formStructures** : 
-* **forms** : the collection of forms created in this content space.
-* **vocabularies** : the collection of vocabularies defined within the content space.
-* **blogPosts** : the collection of blog posts created in this content space.
-* **structuredContents** : the collection of structured contents created in this content space.
-* **contentStructures** : the collection of structures defined in this content space.
+* **creator**: The user who created the content space.
+* **documentsRepository**: Provides access to the content space's Document Library.
+* **webSite**: The Site that the content space belongs to. 
+* **keywords**: The collection of tags defined within the content space.
+* **formStructures**: 
+* **forms**: The collection of forms created in the content space.
+* **vocabularies**: The collection of vocabularies defined in the content space.
+* **blogPosts**: The collection of blog posts created in the content space.
+* **structuredContents**: The collection of structured content created in the content space.
+* **contentStructures** : The collection of structures defined in the content space.
 
 ## Content Spaces Collection
 
-This is an example of a request: 
+Here's an example of a request to this endpoint: 
 
 ```bash
 curl --request GET \
@@ -35,7 +35,7 @@ curl --request GET \
 
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, a list of content spaces under the key `ContentSpace`.
+In a JSON-HAL formatted response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces: 
 
 ```json
 {
@@ -112,6 +112,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples in the following [link](/docs/content-space/examples.html).
+You can find more examples [here](/docs/content-space/examples.html).
