@@ -5,24 +5,23 @@ description: Role Endpoint documentation
 weight: 1
 ---
 
-## The Organization Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model: 
 
-* **name**: the name of the role.
-* **dateCreated**: the creation date of the role.
-* **dateModified**: the modification date of the role.
-* **roleType**: the type of the role.
-* **availableLanguages**: available languages of the role.
+* **name**: The role's name.
+* **dateCreated**: The role's creation date.
+* **dateModified**: The role's modification date.
+* **roleType**: The role's type.
+* **availableLanguages**: The role's available languages.
 
-Also this model offers the following links:
+This model also has the following links:
 
-* **creator**: the user creator of this role.
-
+* **creator**: The user who created this role.
 
 ## Role Collection
 
-This is an example of the request: 
+Here's an example of a request to this endpoint: 
 
 ```bash
 curl --request GET \
@@ -30,7 +29,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, a list of web sites under the key `Role`.
+In a JSON-HAL formatted response, the `_embedded` section contains the `Role` key. This key contains the roles: 
 
 ```json
 {
@@ -78,6 +77,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples in the following [link](/docs/roles/examples.html).
+You can find more examples [here](/docs/roles/examples.html).

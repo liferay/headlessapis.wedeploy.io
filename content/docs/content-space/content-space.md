@@ -24,7 +24,7 @@ The model also has these links:
 * **structuredContents**: The collection of structured content created in the content space.
 * **contentStructures** : The collection of structures defined in the content space.
 
-## Content Spaces Collection
+## Example
 
 Here's an example of a request to this endpoint: 
 

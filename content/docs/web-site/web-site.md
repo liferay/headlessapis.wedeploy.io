@@ -1,29 +1,29 @@
 ---
-title: Web Site
-description: Web Site Endpoint documentation
+title: Website
+description: Website Endpoint documentation
 weight: 1
 ---
 
-## The Web Site Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
-* **name**: the name of the web site.
-* **availableLanguages**: available languages of the web site.
-* **publicUrl**: the website's public URL.
-* **membershipType**: the membership type of the web site.
+* **name**: The website's name.
+* **availableLanguages**: The website's available languages.
+* **publicUrl**: The website's public URL.
+* **membershipType**: The website's membership type.
 
-Also this model offers the following links:
+This model also has the following links:
 
-* **contentSpace**: the content space with all the contents stored in this web site.
-* **creator**: the user creator of this web site.
-* **members**: the list of users that belongs to this web site.
-* **embeddedWebPages**: the list of the embedded web pages that belongs to this web site.
-* **webSite** : the list of child sites of this web site. 
+* **contentSpace**: The content space for the website's content.
+* **creator**: The user who created the website.
+* **members**: The website's members.
+* **embeddedWebPages**: The website's embedded web pages.
+* **webSite** : The website's child sites. 
 
 ## My Web Site Collection
 
-This is an example of the request: 
+Here's an example of a request to this endpoint: 
 
 ```bash
 curl --request GET \
@@ -31,7 +31,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, a list of web sites under the key `WebSite`.
+In a JSON-HAL formatted response, the `_embedded` section contains the `WebSite` key. This key contains the websites: 
 
 ```json
 {
@@ -89,6 +89,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples in the following [link](/docs/web-site/examples.html).
+You can find more examples [here](/docs/web-site/examples.html).

@@ -1,9 +1,9 @@
 ---
 title: Examples
-description: Examples of Calls to User Account API
+description: Examples of Calls to Website API
 weight: 1
 ---
 
-### Examples
+## Examples
 
-You can find more examples in the following [link](/docs/general/examples.html).
+You can find more examples [here](/docs/general/examples.html).

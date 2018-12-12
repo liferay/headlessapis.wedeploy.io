@@ -22,7 +22,6 @@ This model also has the following links:
 * **members**: The organization's members.
 * **subOrganization**: The organization's sub-organizations.
 
-
 ## Example
 
 Here's an example of a request to this endpoint: 
