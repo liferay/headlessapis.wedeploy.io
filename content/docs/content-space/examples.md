@@ -4,6 +4,6 @@ description: Examples of Calls to Content Spaces API
 weight: 1
 ---
 
-### Examples
+## Examples
 
-You can find more examples in the following [link](/docs/general/examples.html)
+You can find more examples [here](/docs/general/examples.html).

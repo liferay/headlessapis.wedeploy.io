@@ -5,26 +5,26 @@ description: Organization Endpoint documentation
 weight: 1
 ---
 
-## The Organization Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model: 
 
-* **name**: the name of the organization.
-* **contanct information**: the contact information of the organization.
-    * **address**: the list of addresses of this organization.
-    * **email**: the list of emails of this organization.
-    * **telephone**: the list of telephones of this organization.
-    * **webUrl**: the list of URLs of this organization.
+* **name**: The organization's name.
+* **contact information**: The organization's contact information.
+    * **address**: The organization's addresses.
+    * **email**: The organization's email addresses.
+    * **telephone**: The organization's phone numbers.
+    * **webUrl**: The organization's URLs.
 
-Also this model offers the following links:
-* **website**: the web site of this organization.
-* **members**: the list of members of this organization.
-* **subOrganization**: the list of sub organizations of this organization.
+This model also has the following links:
 
+* **website**: The organization's Site.
+* **members**: The organization's members.
+* **subOrganization**: The organization's sub-organizations.
 
-## My Organization Collection
+## Example
 
-This is an example of the request: 
+Here's an example of a request to this endpoint: 
 
 ```bash
 curl --request GET \
@@ -32,7 +32,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, a list of web sites under the key `WebSite`.
+In a JSON-HAL formatted response, the `_embedded` section contains the `Organization` key. This key contains the organizations: 
 
 ```json
 {
@@ -97,6 +97,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples in the following [link](/docs/organization/examples.html).
+You can find more examples [here](/docs/organization/examples.html). 

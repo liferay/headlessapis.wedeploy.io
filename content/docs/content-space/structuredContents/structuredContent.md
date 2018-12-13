@@ -5,38 +5,38 @@ description: Structured Content Endpoint documentation
 weight: 2
 ---
 
-## The Structured Content Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
-* **title**: the title of the structured content.
-* **availableLanguages**: available languages of the content space.
-* **dateCreated**: the date of creation of the structured content.
-* **dateModified**: the date of the last modification of the structured content.
-* **datePublished**: the date of publication of the structured content.
-* **keywords**: the keywords assigned to this structured content.
-* **values**: a list of the dynamic fields defined in the structure with its values. Every value has the following fields:
+* **title**: The structured content's title.
+* **availableLanguages**: The content space's available languages.
+* **dateCreated**: The structured content's creation date.
+* **dateModified**: The date the structured content was last modified.
+* **datePublished**: The structured content's publication date.
+* **keywords**: The structured content's keywords.
+* **values**: A list of the structured content's dynamic fields and their values. Every value has the following fields:
   * **label**:
-  * **name**: the name of the dynamic field as it is defined in the structure used by the content
-  * **value**: the value of the field set by the content creator
-  * **dataType**: the datatype of the field defined in the structure, such as: `string`, `boolean`, `date`, etc
-  * **inputControl**: for fields of `string`datatype, it shows the type of input control used, for example: `radio`, `select`, etc
-  * **filterAndSortIdentifier**: this is an optional field, only shown when it is possible to filer or sort by this value. This is the key that needs to be used in the URL to obtain results.
-  
-Also this model offers the links:
+  * **name**: The dynamic field's name as defined in the structure used by the content.
+  * **value**: The field's value as set by the content creator.
+  * **dataType**: The data type of the field defined in the structure (e.g., `string`, `boolean`, `date`, etc.).
+  * **inputControl**: The input control used for `string` fields (e.g., `radio`, `select`, etc.).
+  * **filterAndSortIdentifier**: The key to filter and sort results by. You must use this in the URL. Note that this is an optional field that only appears when filtering and sorting is possible.
 
-* **creator**: the user creator of this content space.
-* **contentSpace** :  the content space that this structured content belongs to. 
-* **aggregateRating** : the average rating of this structured content.
-* **contentStructure** : the content structure that this structured content belongs to. 
-* **category** : the collection of categories assigned to this structured content.
-* **comment** : the collection of comments the users have written about this structured content.
+This model also contains these links:
 
-## Structured Contents Collection
+* **creator**: The user who created the content space.
+* **contentSpace**:  The content space that the structured content belongs to. 
+* **aggregateRating**: The structured content's average rating.
+* **contentStructure**: The content structure that the structured content belongs to. 
+* **category** : The collection of categories assigned to the structured content.
+* **comment** : The structured content's comments.
 
-This API supports [pagination](/docs/general/pagination.html), [sorting](/docs/general/sorting.html) and [filtering](/docs/general/filtering.html). Additionally, this API supports localization. In order to retrieve the structured content in a given language, include the `Accept-language`http header with one of the available languages for that content in particular.
+## Example
 
-This is an example of a request: 
+This API supports [pagination](/docs/general/pagination.html), [sorting](/docs/general/sorting.html) and [filtering](/docs/general/filtering.html), and localization. To retrieve the structured content in a given language, include the `Accept-language` header with one of the available languages for that content.
+
+Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the structured content belongs to: 
 
 ```bash
 curl --request GET \
@@ -45,9 +45,7 @@ curl --request GET \
 
 ```
 
-Where `{{contentSpaceId}}` is the id of the content space that the structured contents belongs to.
-
-The response in `json HAL` format will contain inside the `_embedded` section, a list of content spaces under the key `ContentSpace`.
+In a JSON-HAL formatted response, the `_embedded` section contains the `StructuredContent` key. This key contains the list of structured content: 
 
 ```json
 {
@@ -133,6 +131,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, a
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples in the following [link](/docs/content-space/structuredContent/examples.html).
+You can find more examples [here](/docs/content-space/structuredContent/examples.html). 
