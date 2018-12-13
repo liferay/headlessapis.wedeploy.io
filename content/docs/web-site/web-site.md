@@ -21,7 +21,7 @@ This model also has the following links:
 * **embeddedWebPages**: The website's embedded web pages.
 * **webSite** : The website's child sites. 
 
-## My Web Site Collection
+## Example
 
 Here's an example of a request to this endpoint: 
 
