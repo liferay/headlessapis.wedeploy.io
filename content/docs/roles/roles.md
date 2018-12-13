@@ -19,7 +19,7 @@ This model also has the following links:
 
 * **creator**: The user who created this role.
 
-## Role Collection
+## Example
 
 Here's an example of a request to this endpoint: 
 
