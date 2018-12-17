@@ -102,13 +102,7 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `ContentS
                 }
             }
         ]
-    },
-     "page": {
-         "size": 1,
-         "totalElements": 2,
-         "totalPages": 2,
-         "number": 0
-     }
+    }
 }
 ```
 
