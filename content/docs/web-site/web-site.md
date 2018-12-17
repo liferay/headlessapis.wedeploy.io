@@ -11,6 +11,7 @@ The following fields are currently supported for this model:
 * **name**: The website's name.
 * **availableLanguages**: The website's available languages.
 * **publicUrl**: The website's public URL.
+* **privateUrl**: The website's private URL.
 * **membershipType**: The website's membership type.
 
 This model also has the following links:
