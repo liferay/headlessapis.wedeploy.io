@@ -29,14 +29,14 @@ curl --request GET \
   --header 'Accept: application/json'
 
 ```
-```json+ld
+```json JSON-LD
 curl --request GET \
   --url http://localhost:8080/o/api/content-space?page=1&per_page=1\
   --header 'Accept: application/ld+json'
 
 ```
 
-```json+hal
+```json HAL
 curl --request GET \
   --url http://localhost:8080/o/api/content-space?page=1&per_page=1\
   --header 'Accept: application/hal+json'
