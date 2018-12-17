@@ -25,7 +25,7 @@ Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/roles?page=1&per_page=1 \
+  --url http://localhost:8080/o/api/roles?page=1&per_page=1 \
   --header 'Accept: application/hal+json'
 ```
 
@@ -37,19 +37,19 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `Role` ke
     "count": 3,
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/roles?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/roles?page=1&per_page=1"
         },
         "first": {
-            "href": "http://localhost:8080/o/api/p/roles?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/roles?page=1&per_page=1"
         },
         "last": {
-            "href": "http://localhost:8080/o/api/p/roles?page=5&per_page=1"
+            "href": "http://localhost:8080/o/api/roles?page=5&per_page=1"
         },
         "next": {
-            "href": "http://localhost:8080/o/api/p/roles?page=2&per_page=1"
+            "href": "http://localhost:8080/o/api/roles?page=2&per_page=1"
         },
         "collection": {
-            "href": "http://localhost:8080/o/api/p/roles"
+            "href": "http://localhost:8080/o/api/roles"
         }
     },
     "_embedded": {
@@ -65,10 +65,10 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `Role` ke
                 ],
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/p/roles/20105"
+                        "href": "http://localhost:8080/o/api/roles/20105"
                     },
                     "creator": {
-                        "href": "http://localhost:8080/o/api/p/user-account/20103"
+                        "href": "http://localhost:8080/o/api/user-account/20103"
                     }
                 }
             }

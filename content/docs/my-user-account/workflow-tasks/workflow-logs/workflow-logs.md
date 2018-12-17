@@ -27,7 +27,7 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/workflow-tasks/36564/workflow-logs \
+  --url http://localhost:8080/o/api/workflow-tasks/36564/workflow-logs \
   --header 'Accept: application/hal+json'
 ```
 
@@ -39,16 +39,16 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
     "count": 1,
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
         },
         "first": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
         },
         "last": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632/workflow-logs?page=1&per_page=30"
         },
         "collection": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632/workflow-logs"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632/workflow-logs"
         }
     },
     "_embedded": {
@@ -60,19 +60,19 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
                 "type": "TASK_ASSIGNMENT",
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/p/workflow-logs/51641"
+                        "href": "http://localhost:8080/o/api/workflow-logs/51641"
                     },
                     "auditPerson": {
-                        "href": "http://localhost:8080/o/api/p/user-account/20139"
+                        "href": "http://localhost:8080/o/api/user-account/20139"
                     },
                     "person": {
-                        "href": "http://localhost:8080/o/api/p/user-account/0"
+                        "href": "http://localhost:8080/o/api/user-account/0"
                     },
                     "previousPerson": {
-                        "href": "http://localhost:8080/o/api/p/user-account/0"
+                        "href": "http://localhost:8080/o/api/user-account/0"
                     },
                     "task": {
-                        "href": "http://localhost:8080/o/api/p/workflow-tasks/51632"
+                        "href": "http://localhost:8080/o/api/workflow-tasks/51632"
                     }
                 }
             }

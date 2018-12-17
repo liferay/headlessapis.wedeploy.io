@@ -28,7 +28,7 @@ Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/web-site?page=1&per_page=1 \
+  --url http://localhost:8080/o/api/web-site?page=1&per_page=1 \
   --header 'Accept: application/hal+json'
 ```
 
@@ -40,19 +40,19 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `WebSite`
     "count": 1,
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/web-site?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/web-site?page=1&per_page=1"
         },
         "first": {
-            "href": "http://localhost:8080/o/api/p/web-site?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/web-site?page=1&per_page=1"
         },
         "last": {
-            "href": "http://localhost:8080/o/api/p/web-site?page=18&per_page=1"
+            "href": "http://localhost:8080/o/api/web-site?page=18&per_page=1"
         },
         "next": {
-            "href": "http://localhost:8080/o/api/p/web-site?page=2&per_page=1"
+            "href": "http://localhost:8080/o/api/web-site?page=2&per_page=1"
         },
         "collection": {
-            "href": "http://localhost:8080/o/api/p/web-site"
+            "href": "http://localhost:8080/o/api/web-site"
         }
     },
     "_embedded": {
@@ -66,22 +66,22 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `WebSite`
                 ],
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/p/web-site/20126"
+                        "href": "http://localhost:8080/o/api/web-site/20126"
                     },
                     "contentSpace": {
-                        "href": "http://localhost:8080/o/api/p/content-space/20126"
+                        "href": "http://localhost:8080/o/api/content-space/20126"
                     },
                     "creator": {
-                        "href": "http://localhost:8080/o/api/p/user-account/20103"
+                        "href": "http://localhost:8080/o/api/user-account/20103"
                     },
                     "members": {
-                        "href": "http://localhost:8080/o/api/p/web-site/20126/user-account"
+                        "href": "http://localhost:8080/o/api/web-site/20126/user-account"
                     },
                     "embeddedWebPages": {
-                        "href": "http://localhost:8080/o/api/p/web-site/20126/embedded-web-page"
+                        "href": "http://localhost:8080/o/api/web-site/20126/embedded-web-page"
                     },
                     "webSites": {
-                        "href": "http://localhost:8080/o/api/p/r/web-site/20126"
+                        "href": "http://localhost:8080/o/api/r/web-site/20126"
                     }
                 }
             }

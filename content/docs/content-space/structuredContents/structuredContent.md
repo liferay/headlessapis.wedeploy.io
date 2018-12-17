@@ -40,7 +40,7 @@ Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is t
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/content-space/{{contentSpaceId}}/structured-contents?page=1&per_page=1\
+  --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/structured-contents?page=1&per_page=1\
   --header 'Accept: application/hal+json'
 
 ```
@@ -53,19 +53,19 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `Structur
     "count": 1,
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId/structured-contents?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/content-space/contentSpaceId/structured-contents?page=1&per_page=1"
         },
         "first": {
-            "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId/structured-contents?page=1&per_page=1"
+            "href": "http://localhost:8080/o/api/content-space/contentSpaceId/structured-contents?page=1&per_page=1"
         },
         "last": {
-            "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId/structured-contents?page=7&per_page=1"
+            "href": "http://localhost:8080/o/api/content-space/contentSpaceId/structured-contents?page=7&per_page=1"
         },
         "next": {
-            "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId/structured-contents?page=2&per_page=1"
+            "href": "http://localhost:8080/o/api/content-space/contentSpaceId/structured-contents?page=2&per_page=1"
         },
         "collection": {
-            "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId/structured-contents"
+            "href": "http://localhost:8080/o/api/content-space/contentSpaceId/structured-contents"
         }
     },
     "_embedded": {
@@ -82,25 +82,25 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `Structur
                 "keywords": [],
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/p/structured-contents/36793"
+                        "href": "http://localhost:8080/o/api/structured-contents/36793"
                     },
                     "contentSpace": {
-                        "href": "http://localhost:8080/o/api/p/content-space/contentSpaceId"
+                        "href": "http://localhost:8080/o/api/content-space/contentSpaceId"
                     },
                     "aggregateRating": {
-                        "href": "http://localhost:8080/o/api/p/aggregate-rating/20601:36793"
+                        "href": "http://localhost:8080/o/api/aggregate-rating/20601:36793"
                     },
                     "contentStructure": {
-                        "href": "http://localhost:8080/o/api/p/content-structures/25071"
+                        "href": "http://localhost:8080/o/api/content-structures/25071"
                     },
                     "creator": {
-                        "href": "http://localhost:8080/o/api/p/user-account/20212"
+                        "href": "http://localhost:8080/o/api/user-account/20212"
                     },
                     "category": {
-                        "href": "http://localhost:8080/o/api/p/structured-contents/36793/categories"
+                        "href": "http://localhost:8080/o/api/structured-contents/36793/categories"
                     },
                     "comment": {
-                        "href": "http://localhost:8080/o/api/p/structured-contents/36793/comment"
+                        "href": "http://localhost:8080/o/api/structured-contents/36793/comment"
                     }
                 },
                 "_embedded": {

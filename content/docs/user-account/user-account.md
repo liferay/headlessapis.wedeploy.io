@@ -32,7 +32,7 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/my-user-account \
+  --url http://localhost:8080/o/api/my-user-account \
   --header 'Accept: application/hal+json'
 ```
 
@@ -44,16 +44,16 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
     "count": 1,
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/my-user-account?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/my-user-account?page=1&per_page=30"
         },
         "first": {
-            "href": "http://localhost:8080/o/api/p/my-user-account?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/my-user-account?page=1&per_page=30"
         },
         "last": {
-            "href": "http://localhost:8080/o/api/p/my-user-account?page=1&per_page=30"
+            "href": "http://localhost:8080/o/api/my-user-account?page=1&per_page=30"
         },
         "collection": {
-            "href": "http://localhost:8080/o/api/p/my-user-account"
+            "href": "http://localhost:8080/o/api/my-user-account"
         }
     },
     "_embedded": {
@@ -70,38 +70,38 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
                 "profileURL": "http://localhost:8080/web/test",
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/p/my-user-account/20139"
+                        "href": "http://localhost:8080/o/api/my-user-account/20139"
                     },
                     "roles": {
-                        "href": "http://localhost:8080/o/api/p/my-user-account/20139/roles"
+                        "href": "http://localhost:8080/o/api/my-user-account/20139/roles"
                     },
                     "myOrganizations": {
-                        "href": "http://localhost:8080/o/api/p/my-user-account/20139/organization"
+                        "href": "http://localhost:8080/o/api/my-user-account/20139/organization"
                     },
                     "myWebSites": {
-                        "href": "http://localhost:8080/o/api/p/my-user-account/20139/web-site"
+                        "href": "http://localhost:8080/o/api/my-user-account/20139/web-site"
                     },
                     "tasksAssignedToMe": {
-                        "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me"
+                        "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me"
                     },
                     "tasksAssignedToMyRoles": {
-                        "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles"
+                        "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles"
                     }
                 },
                 "_embedded": {
                     "contactInformation": {
                         "_links": {
                             "address": {
-                                "href": "http://localhost:8080/o/api/p/r/addresses/20006:20139"
+                                "href": "http://localhost:8080/o/api/r/addresses/20006:20139"
                             },
                             "email": {
-                                "href": "http://localhost:8080/o/api/p/r/emails/20006:20139"
+                                "href": "http://localhost:8080/o/api/r/emails/20006:20139"
                             },
                             "telephone": {
-                                "href": "http://localhost:8080/o/api/p/r/phones/20006:20139"
+                                "href": "http://localhost:8080/o/api/r/phones/20006:20139"
                             },
                             "webUrl": {
-                                "href": "http://localhost:8080/o/api/p/r/web-urls/20006:20139"
+                                "href": "http://localhost:8080/o/api/r/web-urls/20006:20139"
                             }
                         }
                     }

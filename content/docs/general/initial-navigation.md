@@ -16,22 +16,22 @@ Different [hypermedia formats](/docs/general/hypermedia-types.html) are supporte
             "href": "http://localhost:8080/o/api"
         },
         "user-account": {
-            "href": "http://localhost:8080/o/api/p/user-account"
+            "href": "http://localhost:8080/o/api/user-account"
         },
         "content-space": {
-            "href": "http://localhost:8080/o/api/p/content-space"
+            "href": "http://localhost:8080/o/api/content-space"
         },
         "my-user-account": {
-            "href": "http://localhost:8080/o/api/p/my-user-account"
+            "href": "http://localhost:8080/o/api/my-user-account"
         },
         "web-site": {
-            "href": "http://localhost:8080/o/api/p/web-site"
+            "href": "http://localhost:8080/o/api/web-site"
         },
         "organization": {
-            "href": "http://localhost:8080/o/api/p/organization"
+            "href": "http://localhost:8080/o/api/organization"
         },
         "roles": {
-            "href": "http://localhost:8080/o/api/p/roles"
+            "href": "http://localhost:8080/o/api/roles"
         }
     }
 }

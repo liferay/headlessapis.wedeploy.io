@@ -16,15 +16,15 @@ The responses in `json HAL` format will contain inside the `_embedded` section, 
     "name": "review",
     "_links": {
         "self": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632"
         },
         "logs": {
-            "href": "http://localhost:8080/o/api/p/workflow-tasks/51632/workflow-logs"
+            "href": "http://localhost:8080/o/api/workflow-tasks/51632/workflow-logs"
         }
     },
     "_embedded": {
         "object": {
-            "identifier": "http://localhost:8080/o/api/p/blog-posting/51621",
+            "identifier": "http://localhost:8080/o/api/blog-posting/51621",
             "resourceType": "BlogPosting"
         }
     }
@@ -51,7 +51,7 @@ curl --request POST \
 
 To perform this action, you need:
 
-* **assigneeId**: user identifier (e.g.: `http://localhost:8080/o/api/p/user-account/20139`).
+* **assigneeId**: user identifier (e.g.: `http://localhost:8080/o/api/user-account/20139`).
 
 This is an example of the request: 
 

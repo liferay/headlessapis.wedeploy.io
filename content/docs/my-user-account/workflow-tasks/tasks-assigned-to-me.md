@@ -33,7 +33,7 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me \
+  --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me \
   --header 'Accept: application/hal+json'
 ```
 
@@ -45,16 +45,16 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
    "count": 1,
    "_links": {
        "self": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
        },
        "first": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
        },
        "last": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me?page=1&per_page=30"
        },
        "collection": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-me"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me"
        }
    },
    "_embedded": {
@@ -70,15 +70,15 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
                ],
                "_links": {
                    "self": {
-                       "href": "http://localhost:8080/o/api/p/workflow-tasks/36653"
+                       "href": "http://localhost:8080/o/api/workflow-tasks/36653"
                    },
                    "logs": {
-                       "href": "http://localhost:8080/o/api/p/workflow-tasks/36653/workflow-logs"
+                       "href": "http://localhost:8080/o/api/workflow-tasks/36653/workflow-logs"
                    }
                },
                "_embedded": {
                    "object": {
-                       "identifier": "http://localhost:8080/o/api/p/blog-posting/36642",
+                       "identifier": "http://localhost:8080/o/api/blog-posting/36642",
                        "resourceType": "BlogPosting"
                    }
                }

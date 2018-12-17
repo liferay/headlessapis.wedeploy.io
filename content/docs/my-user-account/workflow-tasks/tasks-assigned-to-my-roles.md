@@ -32,7 +32,7 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles \
+  --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles \
   --header 'Accept: application/hal+json'
 ```
 
@@ -44,16 +44,16 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
    "count": 1,
    "_links": {
        "self": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
        },
        "first": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
        },
        "last": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles?page=1&per_page=30"
        },
        "collection": {
-           "href": "http://localhost:8080/o/api/p/r/workflow-tasks/assigned-to-my-roles"
+           "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles"
        }
    },
    "_embedded": {
@@ -65,15 +65,15 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
                "name": "review",
                "_links": {
                    "self": {
-                       "href": "http://localhost:8080/o/api/p/workflow-tasks/36678"
+                       "href": "http://localhost:8080/o/api/workflow-tasks/36678"
                    },
                    "logs": {
-                       "href": "http://localhost:8080/o/api/p/workflow-tasks/36678/workflow-logs"
+                       "href": "http://localhost:8080/o/api/workflow-tasks/36678/workflow-logs"
                    }
                },
                "_embedded": {
                    "object": {
-                       "identifier": "http://localhost:8080/o/api/p/blog-posting/36667",
+                       "identifier": "http://localhost:8080/o/api/blog-posting/36667",
                        "resourceType": "BlogPosting"
                    }
                }
