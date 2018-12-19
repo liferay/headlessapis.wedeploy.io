@@ -9,13 +9,14 @@ weight: 1
 
 These examples can be executed using [Postman](https://www.getpostman.com/).
 
-## Prepare environment
+## Prepare Your Environment
 
-Before execute the examples, you need to follow the steps:
-- Import the demo data included in this [repository](https://github.com/liferay-labs/headless-apio-demo).
-- Configure the [Postman Environment](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) with the next variables:
+Before executing the examples, you must follow these steps: 
 
-| Variable               | How find the value?                                                          |
+- Import the demo data included in [this repository](https://github.com/liferay-labs/headless-apio-demo).
+- Configure the [Postman environment](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) with these variables:
+
+| Variable               | Description                                                                  |
 |------------------------|------------------------------------------------------------------------------|
 | username               | Your liferay username. e.g. test@liferay.com                                 |
 | password               | Your liferay password. e.g. test                                             |
