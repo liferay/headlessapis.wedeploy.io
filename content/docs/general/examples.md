@@ -20,6 +20,7 @@ Before execute the examples, you need to follow the steps:
 | username               | Your liferay username. e.g. test@liferay.com                                 |
 | password               | Your liferay password. e.g. test                                             |
 | contentSpaceId         | The id of your Content Space/Site. List all the [Contet Space](/docs/contet-space/index.html) and pick the identifier of the content space you want to query|
+| folderId               | The id of the Folder. List all the [Folder](/docs/content-space/documents-repository/folders/index.html) and pick the identifier of the folder you want to query|
 | roleId                 | The id of the Role. List all the [Roles](/docs/roles/index.html) and pickt he identifier of the role you want to query|
 | userId                 | The id of the User. List all the [User Accounts](/docs/user-account/index.html) and pick the identifier of the user you want to query|
 | organizationId         | The id of the Organization. List all the [Organizations](/docs/organization/index.html) and pick the identifier of the organization you want to query| |
@@ -35,7 +36,11 @@ Before execute the examples, you need to follow the steps:
 
 * Content Spaces [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/625390af8a347edae5c9)
 
+* Documents Repository [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb)
+
 * Content Structures [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d)
+
+* Folders [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3)
 
 * Structured Content [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/fd09da20da25956af16e)
 
