@@ -14,7 +14,6 @@ The following fields are currently supported:
 * **dashboardURL**: the user's dashboard URL.
 * **email**: the user's email address.
 * **familyName**: the user's last name.
-* **gender**: the user's gender.
 * **givenName**: the user's name.
 * **name**: the user's full name.
 * **profileURL**: the user's profile URL.
@@ -68,48 +67,48 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
         "Liferay:UserAccount": [
             {
                 "birthDate": "1970-01-01T00:00Z",
-                "alternateName": "test",
-                "dashboardURL": "http://localhost:8080/user/test",
-                "email": "test@liferay.com",
-                "familyName": "Test",
-                "gender": "male",
-                "givenName": "Test",
-                "name": "Test Test",
-                "profileURL": "http://localhost:8080/web/test",
+                "alternateName": "katew",
+                "dashboardURL": "http://localhost:8080/user/katew",
+                "email": "kate.williams@liferay.com",
+                "familyName": "Williams",
+                "givenName": "Kate",
+                "jobTitle": "Software Engineer",
+                "name": "Kate Williams",
+                "profileURL": "http://localhost:8080/web/katew",
                 "_links": {
                     "self": {
-                        "href": "http://localhost:8080/o/api/my-user-account/20139"
+                        "href": "http://localhost:8080/o/api/my-user-account/45101"
                     },
                     "roles": {
-                        "href": "http://localhost:8080/o/api/my-user-account/20139/roles"
+                        "href": "http://localhost:8080/o/api/my-user-account/45101/roles"
                     },
                     "myOrganizations": {
-                        "href": "http://localhost:8080/o/api/my-user-account/20139/organization"
+                        "href": "http://localhost:8080/o/api/my-user-account/45101/organization"
                     },
                     "myWebSites": {
-                        "href": "http://localhost:8080/o/api/my-user-account/20139/web-site"
+                        "href": "http://localhost:8080/o/api/my-user-account/45101/web-site"
                     },
                     "tasksAssignedToMe": {
-                        "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me"
+                        "href": "http://localhost:8080/o/api/workflow-tasks/reusable-workflow-task-identifier/assigned-to-me"
                     },
                     "tasksAssignedToMyRoles": {
-                        "href": "http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles"
+                        "href": "http://localhost:8080/o/api/workflow-tasks/reusable-workflow-task-identifier/assigned-to-my-roles"
                     }
                 },
                 "_embedded": {
                     "contactInformation": {
                         "_links": {
                             "address": {
-                                "href": "http://localhost:8080/o/api/r/addresses/20006:20139"
+                                "href": "http://localhost:8080/o/api/addresses/class-name-class-p-k/20006:45101"
                             },
                             "email": {
-                                "href": "http://localhost:8080/o/api/r/emails/20006:20139"
+                                "href": "http://localhost:8080/o/api/emails/class-name-class-p-k/20006:45101"
                             },
                             "telephone": {
-                                "href": "http://localhost:8080/o/api/r/phones/20006:20139"
+                                "href": "http://localhost:8080/o/api/phones/class-name-class-p-k/20006:45101"
                             },
                             "webUrl": {
-                                "href": "http://localhost:8080/o/api/r/web-urls/20006:20139"
+                                "href": "http://localhost:8080/o/api/web-urls/class-name-class-p-k/20006:45101"
                             }
                         }
                     }
@@ -120,6 +119,6 @@ The response in `json HAL` format will contain inside the `_embedded` section, t
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through the element, the link to the entity can be found with the rel `self`.
 
 You can find more examples in the following [link](/docs/my-user-account/examples.html).
