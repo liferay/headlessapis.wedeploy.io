@@ -17,14 +17,14 @@ The following fields are currently supported for this model:
 This model also contains these links:
 
 * **documentsRepository**: The documents repository that the folder belongs to.
-* **subFolders**:  The folders within this folder.
-* **documents**: The documents within this folder.
+* **subFolders**:  The folders in this folder.
+* **documents**: The documents in this folder.
 
 ## Example
 
 This API supports [pagination](/docs/general/pagination.html). 
 
-Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the folder belongs to: 
+Here's an example of requests to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the folder belongs to: 
 
 ```bash json
 curl --request GET \

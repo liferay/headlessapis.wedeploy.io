@@ -1,6 +1,6 @@
 ---
 mainPage: false
-title: "Blog postings"
+title: "Blog Postings"
 description: "Blog postings Endpoint documentation"
 weight: 2
 ---
@@ -15,38 +15,32 @@ The following fields are currently supported for this model:
 * **dateModified**: The date the blog post was last modified.
 * **datePublished**: The blog post's publication date.
 * **encodingFormat**: The blog post's encoding format.
-* **friendlyUrlPath**: The blog post's relative friendly url.
+* **friendlyUrlPath**: The blog post's friendly URL. Note that this is a relative URL.
 * **headline**: The blog post's title.
 * **keywords**: The blog post's keywords.
 
 This model also contains these links:
 
 * **creator**: The user who created the blog post.
-* **contentSpace**:  The content space that the blog post belongs to. 
+* **contentSpace**: The content space that the blog post belongs to.
 * **aggregateRating**: The blog post's average rating.
-* **image**: The cover image of the blog post. 
-* **category** : The collection of categories assigned to the blog post.
-* **comment** : The blog post's comments.
+* **image**: The blog post's cover image.
+* **category**: The collection of categories assigned to the blog post.
+* **comment**: The blog post's comments.
 
 ## Example
 
-This API supports [pagination](/docs/general/pagination.html). 
+This API supports [pagination](/docs/general/pagination.html).
 
-Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the blog post belongs to: 
+In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of the content space that the blog post belongs to.
+
+This request specifies that the response is in JSON format. In a JSON response, the `elements` key contains the list of blog posts: 
 
 ```bash json
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/blog-posting?page=1&per_page=1\
   --header 'Accept: application/json'
 ```
-```bash hal
-curl --request GET \
-  --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/blog-posting?page=1&per_page=1\
-  --header 'Accept: application/hal+json'
-```
-
-In a JSON-HAL formatted response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog post: 
-
 ```json
 {
     "totalNumberOfItems": 2,
@@ -100,6 +94,14 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `BlogPost
         }
     ]
 }
+```
+
+This request specifies that the response is in JSON-HAL format. In a JSON-HAL formatted response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog posts: 
+
+```bash hal
+curl --request GET \
+  --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/blog-posting?page=1&per_page=1\
+  --header 'Accept: application/hal+json'
 ```
 ```json hal
 {
