@@ -10,8 +10,8 @@ No fields are currently supported for this model.
 
 The model has these links:
 
-* **documents**: The collection of documents created in the Documents Repository.
-* **folders**: The collection of folders created in the Documents Repository.
+* **documents**: The collection of documents in the Documents Repository.
+* **folders**: The collection of folders in the Documents Repository.
 
 ## Example
 
@@ -42,6 +42,6 @@ In a JSON-HAL formatted response, the `_links` section contains the links to `do
 }
 ```
 
-The `self` rel contains the link to this Documents Repository entity.
+The `self` rel contains the link to the current Documents Repository entity.
 
 You can find more examples [here](/docs/content-space/documents-repository/examples.html).
