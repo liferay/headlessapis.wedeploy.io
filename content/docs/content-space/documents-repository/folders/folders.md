@@ -24,21 +24,15 @@ This model also contains these links:
 
 This API supports [pagination](/docs/general/pagination.html). 
 
-Here's an example of requests to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the folder belongs to: 
+In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of the content space that the folder belongs to.
+
+This request specifies that the response is in JSON format. In JSON format, the response's `elements` key contains the list of folders:
 
 ```bash json
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1\
   --header 'Accept: application/json'
 ```
-```bash hal
-curl --request GET \
-  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1\
-  --header 'Accept: application/hal+json'
-```
-
-In a JSON-HAL formatted response, the `_embedded` section contains the `Folder` key. This key contains the list of folders:
-
 ```json
 {
     "totalNumberOfItems": 1,
@@ -62,6 +56,14 @@ In a JSON-HAL formatted response, the `_embedded` section contains the `Folder` 
         }
     ]
 }
+```
+
+This request specifies that the response is in JSON-HAL format. In a JSON-HAL formatted response, the `_embedded` section contains the `Folder` key. This key contains the list of folders: 
+
+```bash hal
+curl --request GET \
+  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1\
+  --header 'Accept: application/hal+json'
 ```
 ```json hal
 {
