@@ -2,6 +2,7 @@
 description: Read the documentation!
 title: Documentation
 stepNumber: 1
+short: Docs
 ---
 
 #### Docs
