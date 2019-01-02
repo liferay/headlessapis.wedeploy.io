@@ -18,18 +18,18 @@ Before executing the examples, you must follow these steps:
 
 | Variable               | Description                                                                  |
 |------------------------|------------------------------------------------------------------------------|
-| username               | Your liferay username. e.g. test@liferay.com                                 |
-| password               | Your liferay password. e.g. test                                             |
-| contentSpaceId         | The id of your Content Space/Site. List all the [Contet Space](/docs/contet-space/index.html) and pick the identifier of the content space you want to query|
-| folderId               | The id of the Folder. List all the [Folder](/docs/content-space/documents-repository/folders/index.html) and pick the identifier of the folder you want to query|
-| roleId                 | The id of the Role. List all the [Roles](/docs/roles/index.html) and pickt he identifier of the role you want to query|
-| userId                 | The id of the User. List all the [User Accounts](/docs/user-account/index.html) and pick the identifier of the user you want to query|
-| organizationId         | The id of the Organization. List all the [Organizations](/docs/organization/index.html) and pick the identifier of the organization you want to query| |
-| structuredContentId    | The id of the Structured Content. List all the [Structured Content](/docs/content-space/structuredContents/index.html) and pick the identifier of the structured content you want to query|
-| eventResultStructureId | The id of the Event Result Content Structure. List all the [Content Structures](/docs/content-structure/index.html) and pick the `Event Result` id|
-| formId                 | The id of the form. | 
+| `username`             | Your Liferay username (e.g., test@liferay.com)                               |
+| `password`             | Your Liferay password (e.g., test)                                           |
+| `contentSpaceId`       | The ID of your content space/site. Send a request to the [`content-spaces` endpoint](/docs/content-space/index.html) to get a list of your available content spaces and their IDs. |
+| `folderId`             | The folder's ID. Send a request to the [`folder` endpoint](/docs/content-space/documents-repository/folders/index.html) to get a list of your available folders and their IDs. |
+| `roleId`               | The role's ID. Send a request to the [`roles` endpoint](/docs/roles/index.html) to get a list of your available roles and their IDs. |
+| `userId`               | The user's ID. Send a request to the [`user-account` endpoint](/docs/user-account/index.html) to get a list of your available users and their IDs. |
+| `organizationId`       | The organization's ID. Send a request to the [`organization` endpoint](/docs/organization/index.html) to get a list of your available organizations and their IDs. |
+| `structuredContentId`  | The structured content's ID. Send a request to the [`structured-contents` endpoint](/docs/content-space/structuredContents/index.html) to get a list of your available structured contents and their IDs. |
+| `eventResultStructureId` | The ID of the event result in the content structure. Send a request to the [`content-structures` endpoint](/docs/content-structure/index.html) to get a list of your available event results (`Event Result`) and their IDs. |
+| `formId`                 | The form's ID. | 
 
-### Postman collections
+## Postman Collections
 
 * Root Endpoint [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15)
 
@@ -47,4 +47,4 @@ Before executing the examples, you must follow these steps:
 
 * Workflow [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3)
 
-* Blog postings [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
+* Blog Postings [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
