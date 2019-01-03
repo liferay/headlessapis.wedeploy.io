@@ -7,14 +7,21 @@ weight: 1
 
 ## Examples
 
+* [Root Endpoint](https://documenter.getpostman.com/view/6029310/RznCpeaX)
+* [Content Space Endpoint](https://documenter.getpostman.com/view/6060345/RznBPgKy)
+* [Blogs Endpoint](https://documenter.getpostman.com/view/6033677/RznCpeaY)
+* [Structured Content Endpoint](https://documenter.getpostman.com/view/6060345/RznBPg2G)
+
+## Advanced Examples with Postman
+
 These examples can be executed using [Postman](https://www.getpostman.com/).
 
-## Prepare Your Environment
+### Prepare Your Environment
 
 Before executing the examples, you must follow these steps: 
 
 - Import the demo data included in [this repository](https://github.com/liferay-labs/headless-apio-demo).
-- Configure the [Postman environment](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) with these variables:
+- Configure the [Postman environment](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) with these variables (it is important to notice that the value should be set as `CURRENT VALUE` no `INITIAL VALUE`):
 
 | Variable               | Description                                                                  |
 |------------------------|------------------------------------------------------------------------------|
@@ -29,7 +36,7 @@ Before executing the examples, you must follow these steps:
 | `eventResultStructureId` | The ID of the event result in the content structure. Send a request to the [`content-structures` endpoint](/docs/content-structure/index.html) to get a list of your available event results (`Event Result`) and their IDs. |
 | `formId`                 | The form's ID. | 
 
-## Postman Collections
+### Postman Collections
 
 * Root Endpoint [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15)
 
