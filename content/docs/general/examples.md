@@ -34,6 +34,7 @@ Before executing the examples, you must follow these steps:
 | `username`             | Your Liferay username (e.g., test@liferay.com)                               |
 | `password`             | Your Liferay password (e.g., test)                                           |
 | `contentSpaceId`       | The ID of your content space/site. Send a request to the [`content-spaces` endpoint](/docs/content-space/index.html) to get a list of your available content spaces and their IDs. |
+| `documentId`           | The document's ID. Send a request to the [`document` endpoint](/docs/content-space/documents-repository/documents/index.html) to get a list of your available documents and their IDs. |
 | `folderId`             | The folder's ID. Send a request to the [`folder` endpoint](/docs/content-space/documents-repository/folders/index.html) to get a list of your available folders and their IDs. |
 | `roleId`               | The role's ID. Send a request to the [`roles` endpoint](/docs/roles/index.html) to get a list of your available roles and their IDs. |
 | `userId`               | The user's ID. Send a request to the [`user-account` endpoint](/docs/user-account/index.html) to get a list of your available users and their IDs. |
@@ -53,6 +54,8 @@ Before executing the examples, you must follow these steps:
 * Documents Repository [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb)
 
 * Content Structures [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d)
+
+* Documents [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/35387f00102bfdf38716)
 
 * Folders [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3)
 

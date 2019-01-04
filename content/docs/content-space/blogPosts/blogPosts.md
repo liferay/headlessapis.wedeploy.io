@@ -1,7 +1,7 @@
 ---
 mainPage: false
-title: "Blog Postings"
-description: "Blog postings Endpoint documentation"
+title: "Blog Posts"
+description: "Blog posts Endpoint documentation"
 weight: 2
 ---
 
@@ -202,4 +202,4 @@ curl --request GET \
 
 When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples [here](/docs/content-space/blog-postings/examples.html). 
+You can find more examples [here](/docs/content-space/blogPosts/examples.html).

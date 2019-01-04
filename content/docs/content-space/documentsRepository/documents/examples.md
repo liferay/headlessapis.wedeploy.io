@@ -1,7 +1,7 @@
 ---
 mainPage: false
 title: Examples
-description: Examples of Calls to Blog posting API
+description: Examples of Calls to Documents API
 weight: 1
 ---
 
