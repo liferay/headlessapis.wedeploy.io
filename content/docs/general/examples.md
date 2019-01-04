@@ -7,11 +7,16 @@ weight: 1
 
 ## Examples
 
-* [Root Endpoint](https://documenter.getpostman.com/view/6029310/RznCpeaX)
-* [Content Space Endpoint](https://documenter.getpostman.com/view/6060345/RznBPgKy)
-* [Content Structures](https://documenter.getpostman.com/view/6060345/RznCpeet)
-* [Blogs Endpoint](https://documenter.getpostman.com/view/6033677/RznCpeaY)
-* [Structured Content Endpoint](https://documenter.getpostman.com/view/6060345/RznBPg2G)
+| Collection                                                       | Examples Link                                           |
+|------------------------------------------------------------------|---------------------------------------------------------|
+| [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
+| [Content Space](/docs/content-space/)                            | https://documenter.getpostman.com/view/6060345/RznBPgKy |
+| [Content Structures](/docs/content-space/contentStructures)      | https://documenter.getpostman.com/view/6060345/RznCpeet |
+| [Blogs](/docs/content-space/blog-posting)                        | https://documenter.getpostman.com/view/6060345/RznCpeaY |
+| [Documents Repository](/docs/content-space/documents-repository) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
+| [Structured Content](/docs/content-space/structuredContents)     | https://documenter.getpostman.com/view/6060345/RznBPg2G |
+| [Folders](/docs/content-space/documents-repository/folders)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
+| [Documents](/docs/content-space/documents-repository/documents)  | https://documenter.getpostman.com/view/6060345/RznCpeaY |
 
 ## Advanced Examples with Postman
 
