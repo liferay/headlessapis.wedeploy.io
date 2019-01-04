@@ -44,4 +44,4 @@ In a JSON-HAL formatted response, the `_links` section contains the links to `do
 
 The `self` rel contains the link to the current Documents Repository entity.
 
-You can find more examples [here](/docs/content-space/documents-repository/examples.html).
+You can find more examples [here](/docs/content-space/documentsRepository/examples.html).

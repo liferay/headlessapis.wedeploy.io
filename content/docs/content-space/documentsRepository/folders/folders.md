@@ -112,4 +112,4 @@ curl --request GET \
 
 When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can find more examples [here](/docs/content-space/documents-repository/folders/examples.html).
+You can find more examples [here](/docs/content-space/documentsRepository/folders/examples.html).
