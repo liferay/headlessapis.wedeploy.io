@@ -4,9 +4,9 @@ description: Tasks Assigned To My Roles Endpoint documentation
 weight: 4
 ---
 
-## Tasks Assigned To My Roles Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
 * **completed**: whether the workflow task is completed or not.
 * **dateCompleted**: completion date of the workflow task.
@@ -16,19 +16,19 @@ The following fields are currently supported:
 * **description**:
 * **name**:
 
-Also this model offers the following links:
+This model also contains these links:
 
 * **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow-tasks/workflow-logs/index.html).
 
 The model also have the information about the object involved:
 
 * **object**: indicates the object involved in the workflow task.
-  * **identifier**: the object's URL.
-  * **resourceType**: the object's type (e.g.: `Comment` or `BlogPosting`).
+* **identifier**: the object's URL.
+* **resourceType**: the object's type (e.g.: `Comment` or `BlogPosting`).
 
-## Workflow Tasks Assigned To My Roles Collection
+## Example
 
-This is an example of the request: 
+Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
@@ -82,6 +82,6 @@ The response  will contain inside the `_embedded` section, the workflow task und
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-You can found more examples in the following [link](/docs/my-user-account/workflow-tasks/examples.html).
+You can find more examples [here](/docs/my-user-account/workflow-tasks/examples.html).
