@@ -84,7 +84,6 @@ export default (props) => (
 								redirect
 								slug
 								title
-								order
 							}
 						}
 					}
