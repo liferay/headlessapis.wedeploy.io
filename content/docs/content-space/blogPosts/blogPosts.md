@@ -96,7 +96,7 @@ curl --request GET \
 }
 ```
 
-This request specifies that the response is in JSON-HAL format. In a JSON-HAL formatted response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog posts: 
+This request specifies that the response is in JSON-HAL format. In the response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog posts: 
 
 ```bash hal
 curl --request GET \

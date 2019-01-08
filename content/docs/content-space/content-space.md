@@ -35,7 +35,7 @@ curl --request GET \
 
 ```
 
-In a JSON-HAL formatted response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces: 
+In the response response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces: 
 
 ```json
 {

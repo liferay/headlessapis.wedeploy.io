@@ -24,7 +24,7 @@ curl --request GET \
 
 ```
 
-In a JSON-HAL formatted response, the `_links` section contains the links to `documents` and `folders`:
+In the response, the `_links` section contains the links to `documents` and `folders`:
 
 ```json
 {

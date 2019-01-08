@@ -97,7 +97,7 @@ curl --request GET \
 }
 ```
 
-This request specifies that the response is in JSON-HAL format. In a JSON-HAL formatted response, the `_embedded` section contains the `Liferay:Document` key. This key contains the list of documents:
+This request specifies that the response is in JSON-HAL format. In the response, the `_embedded` section contains the `Liferay:Document` key. This key contains the list of documents:
 
 ```bash hal
 curl --request GET \

@@ -32,7 +32,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-In a JSON-HAL formatted response, the `_embedded` section contains the `WebSite` key. This key contains the websites: 
+In the response, the `_embedded` section contains the `WebSite` key. This key contains the websites: 
 
 ```json
 {

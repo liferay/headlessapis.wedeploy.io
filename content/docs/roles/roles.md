@@ -29,7 +29,7 @@ curl --request GET \
   --header 'Accept: application/hal+json'
 ```
 
-In a JSON-HAL formatted response, the `_embedded` section contains the `Role` key. This key contains the roles: 
+In the response, the `_embedded` section contains the `Role` key. This key contains the roles: 
 
 ```json
 {

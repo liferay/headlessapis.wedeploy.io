@@ -45,7 +45,7 @@ curl --request GET \
 
 ```
 
-In a JSON-HAL formatted response, the `_embedded` section contains the `StructuredContent` key. This key contains the list of structured content: 
+In the response, the `_embedded` section contains the `StructuredContent` key. This key contains the list of structured content: 
 
 ```json
 {

@@ -58,7 +58,7 @@ curl --request GET \
 }
 ```
 
-This request specifies that the response is in JSON-HAL format. In a JSON-HAL formatted response, the `_embedded` section contains the `Folder` key. This key contains the list of folders: 
+This request specifies that the response is in JSON-HAL format. In the response, the `_embedded` section contains the `Folder` key. This key contains the list of folders: 
 
 ```bash hal
 curl --request GET \
