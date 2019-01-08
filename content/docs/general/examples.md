@@ -63,4 +63,4 @@ Before executing the examples, you must follow these steps:
 
 * Workflow [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3)
 
-* Blog Postings [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
+* Blogs [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
