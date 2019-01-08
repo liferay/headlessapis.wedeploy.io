@@ -4,6 +4,6 @@ description: Examples of Calls to Workflow Logs
 weight: 1
 ---
 
-### Examples
+## Examples
 
-You can found more examples in the following [link](/docs/general/examples.html)
+You can find more examples [here](/docs/general/examples.html)
