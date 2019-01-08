@@ -30,9 +30,7 @@ Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/content-space?page=1&per_page=1\
-  --header 'Accept: application/hal+json'
-
+  --url http://localhost:8080/o/api/content-space?page=1&per_page=1
 ```
 
 In the response response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces: 

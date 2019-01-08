@@ -6,7 +6,7 @@ weight: 2
 
 ## Workflow Tasks Custom Actions
 
-The responses in `json HAL` format will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
+The responses will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
 
 ```json
 {
@@ -42,7 +42,6 @@ This is an example of the request:
 ```bash
 curl --request POST \
   --url http://localhost:8080/o/api/c/workflow-tasks/42499/assign-to-me \
-  --header 'Accept: application/hal+json' \
   --header 'Content-Type: application/json' \
   --data '{}'
 ```
@@ -58,7 +57,6 @@ This is an example of the request:
 ```bash
 curl --request POST \
   --url http://localhost:8080/o/api/c/workflow-tasks/42499/assign-to-user \
-  --header 'Accept: application/hal+json' \
   --header 'Content-Type: application/json' \
   --data '{"assigneeId": ""}'
 ```
@@ -74,7 +72,6 @@ This is an example of the request:
 ```bash
 curl --request POST \
   --url http://localhost:8080/o/api/c/workflow-tasks/36633/change-transition \
-  --header 'Accept: application/hal+json' \
   --header 'Content-Type: application/json' \
   --data '{"transition": ""}'
 ```

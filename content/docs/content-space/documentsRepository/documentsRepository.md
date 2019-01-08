@@ -19,9 +19,7 @@ Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}\
-  --header 'Accept: application/hal+json'
-
+  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}
 ```
 
 In the response, the `_links` section contains the links to `documents` and `folders`:

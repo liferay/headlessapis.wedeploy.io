@@ -26,46 +26,11 @@ This API supports [pagination](/docs/general/pagination.html).
 
 In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of the content space that the folder belongs to.
 
-This request specifies that the response is in JSON format. In JSON format, the response's `elements` key contains the list of folders:
-
-```bash json
+```bash request
 curl --request GET \
-  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1\
-  --header 'Accept: application/json'
+  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1
 ```
-```json
-{
-    "totalNumberOfItems": 1,
-    "numberOfItems": 1,
-    "self": "http://localhost:8080/o/api/documents-repository/20126/folder?page=1&per_page=1",
-    "pages": {
-        "first": "http://localhost:8080/o/api/documents-repository/20126/folder?page=1&per_page=1",
-        "last": "http://localhost:8080/o/api/documents-repository/20126/folder?page=1&per_page=1"
-    },
-    "collection": "http://localhost:8080/o/api/documents-repository/20126/folder",
-    "elements": [
-        {
-            "dateCreated": "2018-12-26T14:39Z",
-            "dateModified": "2018-12-26T14:39Z",
-            "description": "My example folder description",
-            "name": "My example folder",
-            "self": "http://localhost:8080/o/api/folder/37669",
-            "documentsRepository": "http://localhost:8080/o/api/documents-repository/20126",
-            "subFolders": "http://localhost:8080/o/api/folder/37669/folder",
-            "documents": "http://localhost:8080/o/api/folder/37669/document"
-        }
-    ]
-}
-```
-
-This request specifies that the response is in JSON-HAL format. In the response, the `_embedded` section contains the `Folder` key. This key contains the list of folders: 
-
-```bash hal
-curl --request GET \
-  --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1\
-  --header 'Accept: application/hal+json'
-```
-```json hal
+```json response
 {
     "total": 1,
     "count": 1,

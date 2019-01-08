@@ -27,11 +27,10 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/workflow-tasks/36564/workflow-logs \
-  --header 'Accept: application/hal+json'
+  --url http://localhost:8080/o/api/workflow-tasks/36564/workflow-logs 
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, the workflow log under the key `WorkflowLog`.
+The response will contain inside the `_embedded` section, the workflow log under the key `WorkflowLog`.
 
 ```json
 {

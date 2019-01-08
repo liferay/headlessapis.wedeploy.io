@@ -32,11 +32,10 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/my-user-account \
-  --header 'Accept: application/hal+json'
+  --url http://localhost:8080/o/api/my-user-account
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, the user logged under the key `Liferay:UserAccount`.
+The response will contain inside the `_embedded` section, the user logged under the key `Liferay:UserAccount`.
 
 ```json
 {

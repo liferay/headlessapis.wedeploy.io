@@ -32,11 +32,10 @@ This is an example of the request:
 
 ```bash
 curl --request GET \
-  --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles \
-  --header 'Accept: application/hal+json'
+  --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles
 ```
 
-The response in `json HAL` format will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
+The response  will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
 
 ```json
 {
