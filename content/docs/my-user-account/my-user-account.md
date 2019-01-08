@@ -5,9 +5,9 @@ description: My User Account Endpoint documentation
 weight: 1
 ---
 
-## The My User Account Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
 * **birthDate**: the date of birth of the user.
 * **alternateName**: the alias of the user.
@@ -18,7 +18,7 @@ The following fields are currently supported:
 * **name**: the user's full name.
 * **profileURL**: the user's profile URL.
 
-Also this model offers the following links:
+This model also contains these links:
 
 * **roles**: the user's roles collection.
 * **myOrganizations**: the list of organizations that the user is member.
@@ -26,16 +26,16 @@ Also this model offers the following links:
 * **tasksAssignedToMe**: the list of the tasks assigned to the user.
 * **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
 
-The model also have the contact information:
+And this model also contains contact information:
 
 * **address**: the list of postal addresses of the user.
 * **email**: the list of additional email addresses of the user.
 * **telephone**: the list of telephones of the user.
 * **webUrl**: the list of user's webs.
 
-## My User Account Collection
+## Example
 
-This is an example of the request: 
+Here's an example of a request to this endpoint:
 
 ```bash
 curl --request GET \
@@ -120,4 +120,4 @@ The response will contain inside the `_embedded` section, the user logged under 
 
 When navigating through the element, the link to the entity can be found with the rel `self`.
 
-You can find more examples in the following [link](/docs/my-user-account/examples.html).
+You can find more examples [here](/docs/my-user-account/examples.html).
