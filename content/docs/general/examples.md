@@ -17,6 +17,7 @@ weight: 1
 | [Structured Content](/docs/content-space/structuredContents)     | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [Folders](/docs/content-space/documents-repository/folders)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
 | [Documents](/docs/content-space/documents-repository/documents)  | https://documenter.getpostman.com/view/6060345/RznCpeaY |
+| [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
 
 ## Advanced Examples with Postman
 
