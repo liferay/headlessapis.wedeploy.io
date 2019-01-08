@@ -6,4 +6,4 @@ weight: 1
 
 ## Examples
 
-You can find more examples [here](/docs/general/examples.html)
+You can find more examples [here](/docs/general/examples.html).
