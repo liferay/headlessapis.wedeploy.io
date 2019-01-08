@@ -31,7 +31,7 @@ The responses will contain inside the `_embedded` section, the workflow task und
 }
 ```
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
+When navigating through a list of entities, the `self` rel contains the link to each entity.
 
 ### Assign workflow task to me
 
