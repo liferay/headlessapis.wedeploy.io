@@ -7,7 +7,7 @@ const createPages = (actions, edges) => {
 	const {createPage, createRedirect} = actions;
 
 	edges.forEach(({node}, index) => {
-		const {slug, redirect, layout, mainPage} = node.fields;
+		const {slug, redirect, mainPage} = node.fields;
 
 		const templateKey = slug.split('/')[0];
 
@@ -25,11 +25,11 @@ const createPages = (actions, edges) => {
 			});
 		}
 
-		let previous = index === 0 ? false : edges[index - 1].node;
-		let next = index === edges.length - 1 ? false : edges[index + 1].node;
+		if (!redirect) {
+            let previous = index === 0 ? false : edges[index - 1].node;
+            let next = index === edges.length - 1 ? false : edges[index + 1].node;
 
-		if (layout !== 'redirect') {
-			createPage({
+            createPage({
 				path: slug,
 				component: componentWithMDXScope(
 					path.resolve(__dirname, `../src/templates/${templateKey}.js`),
@@ -59,7 +59,6 @@ module.exports = async ({actions, graphql}) => {
 				edges {
 					node {
 						fields {
-							layout
 							redirect
 							slug
 							mainPage
