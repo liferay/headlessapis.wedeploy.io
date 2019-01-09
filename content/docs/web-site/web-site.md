@@ -24,16 +24,18 @@ This model also has the following links:
 
 ## Example
 
+This API supports [pagination](/docs/general/pagination.html).
+
+In the response, the `_embedded` section contains the `WebSite` key. This key contains the websites.
+
 Here's an example of a request to this endpoint: 
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/web-site?page=1&per_page=1
 ```
 
-In the response, the `_embedded` section contains the `WebSite` key. This key contains the websites: 
-
-```json
+```json response
 {
     "total": 18,
     "count": 1,

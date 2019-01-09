@@ -35,16 +35,16 @@ And this model also contains contact information:
 
 ## Example
 
+In the response, the `_embedded` section contains the `Liferay:UserAccount` key. This key contains the user logged.
+
 Here's an example of a request to this endpoint:
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/my-user-account
 ```
 
-The response will contain inside the `_embedded` section, the user logged under the key `Liferay:UserAccount`.
-
-```json
+```json response
 {
     "total": 1,
     "count": 1,

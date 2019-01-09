@@ -32,14 +32,15 @@ This model also contains these links:
 
 This API supports [pagination](/docs/general/pagination.html).
 
-In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of the content space that the blog post belongs to.
+In the response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog posts.
 
-In the response, the `_embedded` section contains the `BlogPosting` key. This key contains the list of blog posts: 
+Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the blog post belongs to:
 
 ```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/blog-posting?page=1&per_page=1
 ```
+
 ```json response
 {
     "total": 2,

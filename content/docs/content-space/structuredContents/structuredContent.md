@@ -36,16 +36,16 @@ This model also contains these links:
 
 This API supports [pagination](/docs/general/pagination.html), [sorting](/docs/general/sorting.html) and [filtering](/docs/general/filtering.html), and localization. To retrieve the structured content in a given language, include the `Accept-language` header with one of the available languages for that content.
 
+In the response, the `_embedded` section contains the `StructuredContent` key. This key contains the list of structured content.
+
 Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the structured content belongs to: 
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/structured-contents?page=1&per_page=1
 ```
 
-In the response, the `_embedded` section contains the `StructuredContent` key. This key contains the list of structured content: 
-
-```json
+```json response
 {
     "total": 7,
     "count": 1,

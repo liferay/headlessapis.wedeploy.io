@@ -30,6 +30,7 @@ In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of th
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1
 ```
+
 ```json response
 {
     "total": 1,
