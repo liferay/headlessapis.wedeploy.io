@@ -11,7 +11,7 @@ weight: 1
 |------------------------------------------------------------------|---------------------------------------------------------|
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
 | [Content Space](/docs/content-space/)                            | https://documenter.getpostman.com/view/6060345/RznBPgKy |
-| [Content Structures](/docs/content-space/contentStructures)      | https://documenter.getpostman.com/view/6060345/RznCpeet |
+| [Content Structure](/docs/content-space/contentStructures)       | https://documenter.getpostman.com/view/6060345/RznCpeet |
 | [Blogs](/docs/content-space/blog-posting)                        | https://documenter.getpostman.com/view/6060345/RznCpeaY |
 | [Documents Repository](/docs/content-space/documents-repository) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
 | [Structured Content](/docs/content-space/structuredContents)     | https://documenter.getpostman.com/view/6060345/RznBPg2G |
