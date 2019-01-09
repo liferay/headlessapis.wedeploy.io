@@ -15,16 +15,16 @@ The model has these links:
 
 ## Example
 
+In the response, the `_links` section contains the links to `documents` and `folders`.
+
 Here's an example of a request to this endpoint: 
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}
 ```
 
-In the response, the `_links` section contains the links to `documents` and `folders`:
-
-```json
+```json response
 {
     "_links": {
         "self": {

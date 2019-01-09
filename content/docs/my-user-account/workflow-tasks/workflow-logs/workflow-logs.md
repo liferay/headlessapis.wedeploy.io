@@ -23,16 +23,18 @@ This model also contains these links:
 
 ## Example
 
+This API supports [pagination](/docs/general/pagination.html).
+
+In the response, the `_embedded` section contains the `WorkflowLog` key. This key contains the workflow task activity.
+
 Here's an example of a request to this endpoint:
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/workflow-tasks/36564/workflow-logs 
 ```
 
-The response will contain inside the `_embedded` section, the workflow log under the key `WorkflowLog`.
-
-```json
+```json response
 {
     "total": 1,
     "count": 1,

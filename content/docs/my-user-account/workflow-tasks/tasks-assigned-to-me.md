@@ -29,16 +29,18 @@ The model also have the information about the object involved:
 
 ## Example
 
+This API supports [pagination](/docs/general/pagination.html).
+
+The response will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
+
 Here's an example of a request to this endpoint:
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me
 ```
 
-The response will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
-
-```json
+```json response
 {
    "total": 1,
    "count": 1,

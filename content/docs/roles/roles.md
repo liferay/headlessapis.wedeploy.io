@@ -21,16 +21,18 @@ This model also has the following links:
 
 ## Example
 
+This API supports [pagination](/docs/general/pagination.html).
+
+In the response, the `_embedded` section contains the `Role` key. This key contains the roles.
+
 Here's an example of a request to this endpoint: 
 
-```bash
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/roles?page=1&per_page=1
 ```
 
-In the response, the `_embedded` section contains the `Role` key. This key contains the roles: 
-
-```json
+```json response
 {
     "total": 14,
     "count": 3,

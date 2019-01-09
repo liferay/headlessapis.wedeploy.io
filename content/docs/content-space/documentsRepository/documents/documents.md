@@ -48,6 +48,7 @@ In the response, the `_embedded` section contains the `Liferay:Document` key. Th
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/document?page=1&per_page=1
 ```
+
 ```json response
 {
     "total": 1,

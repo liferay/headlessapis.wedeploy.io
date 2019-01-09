@@ -5,7 +5,7 @@ description: Initial Navigation to obtain URLs with Liferay Headless APIs
 weight: 6
 ---
 
-First, you must get a list of the URLs you can make requests to. To get a list of URLs available at the API's entry point, make a request to `/o/api`, the request will include a `_links` object that contains the available URLs: . Note that it's important not to hardcode URLs in future requests, as they may change.
+First, you must get a list of the URLs you can make requests to. To get a list of URLs available at the API's entry point, make a request to `/o/api`, the request will include a `_links` object that contains the available URLs. Note that it's important not to hardcode URLs in future requests, as they may change.
 
 ```json
 {
@@ -39,4 +39,4 @@ The `organization` and `roles` keys in this response each contain a URL for retr
 
 Different [hypermedia formats](/docs/general/hypermedia-types.html) are supported for the response.
 
-You can find more examples in the following [link](/docs/general/examples.html).
+You can find more examples [here](/docs/general/examples.html).

@@ -11,7 +11,7 @@ The following fields are currently supported for this model:
 * **name**: The content space's name.
 * **availableLanguages**: The content space's available languages.
 
-The model also has these links:
+This model also contains these links:
 
 * **creator**: The user who created the content space.
 * **documentsRepository**: Provides access to the content space's Document Library.
@@ -26,16 +26,16 @@ The model also has these links:
 
 ## Example
 
-Here's an example of a request to this endpoint: 
+In the response response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces.
 
-```bash
+Here's an example of a request to this endpoint:
+
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/content-space?page=1&per_page=1
 ```
 
-In the response response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces: 
-
-```json
+```json response
 {
     "total": 2,
     "count": 1,

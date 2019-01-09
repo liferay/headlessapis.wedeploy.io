@@ -4,9 +4,9 @@ description: User Account Endpoint documentation
 weight: 1
 ---
 
-## The User Account Model
+## Model
 
-The following fields are currently supported:
+The following fields are currently supported for this model:
 
 * **birthDate**: the date of birth of the user.
 * **alternateName**: the alias of the user.
@@ -18,7 +18,7 @@ The following fields are currently supported:
 * **name**: the user's full name.
 * **profileURL**: the user's profile URL.
 
-Also this model offers the following links:
+This model also contains these links:
 
 * **roles**: the collection of roles that the user has assigned.
 * **myOrganizations**: the list of organizations that the user is member of.
@@ -26,18 +26,20 @@ Also this model offers the following links:
 * **tasksAssignedToMe**: the list of the tasks assigned to the user.
 * **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
 
-## My User Account Collection
+## Example
 
-This is an example of the request: 
+This API supports [pagination](/docs/general/pagination.html).
 
-```bash
+In the response, the `_embedded` section contains the `Liferay:UserAccount` key. This key contains the list of users.
+
+Here's an example of a request to this endpoint:
+
+```bash request
 curl --request GET \
   --url http://localhost:8080/o/api/my-user-account
 ```
 
-The response will contain inside the `_embedded` section, the user logged under the key `Liferay:UserAccount`.
-
-```json
+```json response
 {
     "total": 1,
     "count": 1,
@@ -110,7 +112,6 @@ The response will contain inside the `_embedded` section, the user logged under 
     }
 }
 ```
+When navigating through a list of entities, the `self` rel contains the link to each entity. 
 
-When navigating through the list of entities, the link to each entity can be found with the rel `self`.
-
-You can find more examples in the following [link](/docs/my-user-account/examples.html).
+You can find more examples [here](/docs/my-user-account/examples.html).
