@@ -1,7 +1,7 @@
 ---
 mainPage: false
-title: Role
-description: Role Endpoint documentation
+title: Roles
+description: Roles Endpoint documentation
 weight: 1
 ---
 
