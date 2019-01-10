@@ -15,6 +15,7 @@ weight: 1
 | [Documents](/docs/content-space/documentsRepository/documents/)  | https://documenter.getpostman.com/view/5930647/RznFqJca |
 | [Documents Repository](/docs/content-space/documentsRepository/) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
+| Forms                                                            | https://documenter.getpostman.com/view/6029310/RznFqdwg |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
 | [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
@@ -56,6 +57,7 @@ Before executing the examples, you must follow these steps:
 | Documents            | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a46ae881ce951ee6262b) |
 | Documents Repository | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb) |
 | Folders              | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3) |
+| Forms                | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/873245aeebb453e9d236) |
 | My User Account      | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d0d8c0f27a04d22ba3f7) |
 | Root Endpoint        | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15) |
 | Structured Content   | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/fd09da20da25956af16e) |
