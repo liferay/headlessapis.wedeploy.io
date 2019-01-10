@@ -10,11 +10,11 @@ weight: 1
 | Collection                                                       | Examples Link                                           |
 |------------------------------------------------------------------|---------------------------------------------------------|
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
-| [Content Space](/docs/content-space/)                            | https://documenter.getpostman.com/view/6060345/RznBPgKy |
+| [Content Spaces](/docs/content-space/)                           | https://documenter.getpostman.com/view/6060345/RznBPgKy |
 | Content Structure                                                | https://documenter.getpostman.com/view/6060345/RznCpeet |
 | [Blogs](/docs/content-space/blogPosts/)                          | https://documenter.getpostman.com/view/6033677/RznCpeaY |
 | [Documents Repository](/docs/content-space/documentsRepository/) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
-| [Structured Content](/docs/content-space/structuredContents/)    | https://documenter.getpostman.com/view/6060345/RznBPg2G |
+| [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
 | [Documents](/docs/content-space/documentsRepository/documents/)  | https://documenter.getpostman.com/view/6060345/RznCpeaY |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
