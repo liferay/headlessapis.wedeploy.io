@@ -17,8 +17,8 @@ weight: 1
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
 | Forms                                                            | https://documenter.getpostman.com/view/6029310/RznFqdwg |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
-| Organization                                                     | https://documenter.getpostman.com/view/6060345/RznFqdwm |
-| Roles                                                            | https://documenter.getpostman.com/view/6060345/RznFqe2C |
+| [Organization](/docs/organization/)                              | https://documenter.getpostman.com/view/6060345/RznFqdwm |
+| [Roles](/docs/roles/)                                            | https://documenter.getpostman.com/view/6060345/RznFqe2C |
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
 | [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [User Account](/docs/user-account/)                              | https://documenter.getpostman.com/view/6060345/RznFqJTp |
