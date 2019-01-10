@@ -19,6 +19,7 @@ weight: 1
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
 | [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [User Account](/docs/user-account/)                              | https://documenter.getpostman.com/view/6060345/RznFqJTp |
+| [Workflow](/docs/my-user-account/workflow-tasks/)                | https://documenter.getpostman.com/view/6029310/RznFqdsD |
 
 ## Advanced Examples with Postman
 
