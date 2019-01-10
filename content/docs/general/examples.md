@@ -47,24 +47,16 @@ Before executing the examples, you must follow these steps:
 
 ### Postman Collections
 
-* Root Endpoint [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15)
-
-* My User Account [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d0d8c0f27a04d22ba3f7)
-
-* Content Spaces [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/625390af8a347edae5c9)
-
-* Documents Repository [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb)
-
-* Content Structures [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d)
-
-* Documents [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/35387f00102bfdf38716)
-
-* Folders [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3)
-
-* Structured Content [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/fd09da20da25956af16e)
-
-* Workflow [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3)
-
-* Blogs [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
-
-* User Account [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a78d14116b6327df2199)
+| Collection           | Postman Link                                                                                                         |
+|----------------------|----------------------------------------------------------------------------------------------------------------------|
+| Blogs                | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d) |
+| Content Spaces       | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/625390af8a347edae5c9) |
+| Content Structures   | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d) |
+| Documents            | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/35387f00102bfdf38716) |
+| Documents Repository | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb) |
+| Folders              | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3) |
+| My User Account      | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d0d8c0f27a04d22ba3f7) |
+| Root Endpoint        | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15) |
+| Structured Content   | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/fd09da20da25956af16e) |
+| User Account         | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a78d14116b6327df2199) |
+| Workflow             | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3) |
