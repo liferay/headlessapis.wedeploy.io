@@ -18,6 +18,7 @@ weight: 1
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
 | [Documents](/docs/content-space/documentsRepository/documents/)  | https://documenter.getpostman.com/view/6060345/RznCpeaY |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
+| [User Account](/docs/user-account/)                              | https://documenter.getpostman.com/view/6060345/RznFqJTp |
 
 ## Advanced Examples with Postman
 
@@ -65,3 +66,5 @@ Before executing the examples, you must follow these steps:
 * Workflow [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3)
 
 * Blogs [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d)
+
+* User Account [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a78d14116b6327df2199)
