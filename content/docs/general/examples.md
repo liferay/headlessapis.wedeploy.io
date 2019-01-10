@@ -22,6 +22,7 @@ weight: 1
 | [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
 | [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [User Account](/docs/user-account/)                              | https://documenter.getpostman.com/view/6060345/RznFqJTp |
+| [Web Site](/docs/web-site/)                                      | https://documenter.getpostman.com/view/6060345/RznFqeB2 |
 | [Workflow](/docs/my-user-account/workflow-tasks/)                | https://documenter.getpostman.com/view/6029310/RznFqdsD |
 
 ## Advanced Examples with Postman
@@ -66,4 +67,5 @@ Before executing the examples, you must follow these steps:
 | Root Endpoint        | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4eaef9d6ba43fe179a15) |
 | Structured Content   | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/fd09da20da25956af16e) |
 | User Account         | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a78d14116b6327df2199) |
+| Web Site             | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e39f58703a5b23da5375) |
 | Workflow             | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ff849ad861374e6676c3) |
