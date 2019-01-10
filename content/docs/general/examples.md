@@ -9,15 +9,15 @@ weight: 1
 
 | Collection                                                       | Examples Link                                           |
 |------------------------------------------------------------------|---------------------------------------------------------|
-| [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
+| [Blogs](/docs/content-space/blogPosts/)                          | https://documenter.getpostman.com/view/6033677/RznCpeaY |
 | [Content Spaces](/docs/content-space/)                           | https://documenter.getpostman.com/view/6060345/RznBPgKy |
 | Content Structure                                                | https://documenter.getpostman.com/view/6060345/RznCpeet |
-| [Blogs](/docs/content-space/blogPosts/)                          | https://documenter.getpostman.com/view/6033677/RznCpeaY |
+| [Documents](/docs/content-space/documentsRepository/documents/)  |  |
 | [Documents Repository](/docs/content-space/documentsRepository/) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
-| [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
-| [Documents](/docs/content-space/documentsRepository/documents/)  | https://documenter.getpostman.com/view/6060345/RznCpeaY |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
+| [Root](/docs/general/)                                           | https://documenter.getpostman.com/view/6029310/RznCpeaX |
+| [Structured Contents](/docs/content-space/structuredContents/)   | https://documenter.getpostman.com/view/6060345/RznBPg2G |
 | [User Account](/docs/user-account/)                              | https://documenter.getpostman.com/view/6060345/RznFqJTp |
 
 ## Advanced Examples with Postman
