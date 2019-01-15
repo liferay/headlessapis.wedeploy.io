@@ -93,7 +93,7 @@ export default (props) => (
 		`}
 		render={data => {
 
-			const logoPath = "/images/home/liferay_logo_black.svg";
+			const logoPath = "/images/logos/project_logo.png";
 
 			return (
 				<>

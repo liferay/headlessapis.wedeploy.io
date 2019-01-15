@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container-fluid container-fluid-max-lg">
                 <div className="row">
                     <div className="col-lg text-center text-lg-left mb-4 mb-lg-0">
-                        <img className="logo" alt="liferay logo" src="/images/liferayLogo.png" />
+                        <img className="logo" alt="liferay logo" src="/images/logos/liferay.png" />
 
                         <div className="clearfix d-lg-none"></div>
 
