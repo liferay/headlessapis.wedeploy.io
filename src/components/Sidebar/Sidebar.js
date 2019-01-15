@@ -12,9 +12,9 @@ const expandToggler = () => {
 
 const getSection = data => {
 	const elements = data.allMdx.edges.map(({node}) => {
-		const { fields: { slug, title, alwaysActive, order } } = node;
+		const { fields: { slug, title, alwaysActive, redirect, order } } = node;
 
-		return toSectionElements(slug.replace('.html', ''), title, order, alwaysActive);
+		return toSectionElements(slug.replace('.html', ''), title, order, redirect, alwaysActive);
 	});
 
 	let rootElements = elements.filter(path => path.isRoot);
@@ -23,7 +23,7 @@ const getSection = data => {
 		.sort((a, b) => a.order - b.order);
 };
 
-const toSectionElements = (slug, title, order, alwaysActive) => {
+const toSectionElements = (slug, title, order, redirect, alwaysActive) => {
 	const slugs = slug.split("/");
 	const lastSlug = slugs[slugs.length - 1];
 	const penultimateSlug = slugs[slugs.length - 2];
@@ -34,7 +34,7 @@ const toSectionElements = (slug, title, order, alwaysActive) => {
 	const isFolder = lastSlug === "index";
 	const isRoot = (slugs.length === 3 && isFolder) || (slugs.length === 2 && !isFolder);
 
-	return {id, link, title, parentLink, isFolder, isRoot, order, alwaysActive};
+	return {id, link, title, parentLink, isFolder, isRoot, order, redirect, alwaysActive};
 };
 
 const toSectionItem = (item, paths) => {

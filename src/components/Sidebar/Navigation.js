@@ -71,9 +71,17 @@ const Anchor = ({page}) => {
         );
     }
 
+    if (page.redirect && page.redirect.startsWith("http")) {
+        return (
+            <a className="align-middle" href={page.redirect} target="_blank" rel="noopener noreferrer">
+                <span>{page.title}</span>
+            </a>
+        );
+    }
+
     return (
         <Link
-            to={`${page.link}.html`}
+            to={page.redirect ? page.redirect : `${page.link}.html`}
             className="align-middle"
         >
             <span>{page.title}</span>
