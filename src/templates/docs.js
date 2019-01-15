@@ -9,8 +9,6 @@ import LayoutNav from '../components/LayoutNav';
 import CodeTabs from '../components/CodeTabs';
 import CodeClipboard from '../components/CodeClipboard';
 import Typography from '../components/Typography';
-import Auth from '../components/Auth';
-import { logout } from '../services/auth';
 
 export default class Docs extends Component {
     componentDidMount() {
@@ -23,71 +21,63 @@ export default class Docs extends Component {
         this._codeClipboard.dispose();
     }
 
-    _handleLogout() {
-        logout().then(() => {
-            this.forceUpdate();
-        });
-    }
-
     render() {
         const { data, location } = this.props;
 
-        const { mdx: { code, frontmatter: {title, needsAuth}, excerpt, timeToRead } } = data;
+        const { mdx: { code, frontmatter: {title}, excerpt, timeToRead } } = data;
 
         return (
-            <Auth needsAuth={needsAuth}>
-                <div className="docs">
-                    <Helmet>
-                        <title>{title}</title>
-                        <meta name="description" content={excerpt} />
-                        <meta name="og:description" content={excerpt} />
-                        <meta name="twitter:description" content={excerpt} />
-                        <meta name="og:title" content={title} />
-                        <meta name="og:type" content="article" />
-                        <meta name="twitter.label1" content="Reading time" />
-                        <meta
-                            name="twitter:data1"
-                            content={`${timeToRead} min read`}
-                        />
-                    </Helmet>
+            <div className="docs">
+                <Helmet>
+                    <title>{title}</title>
+                    <meta name="description" content={excerpt} />
+                    <meta name="og:description" content={excerpt} />
+                    <meta name="twitter:description" content={excerpt} />
+                    <meta name="og:title" content={title} />
+                    <meta name="og:type" content="article" />
+                    <meta name="twitter.label1" content="Reading time" />
+                    <meta
+                        name="twitter:data1"
+                        content={`${timeToRead} min read`}
+                    />
+                </Helmet>
 
-                    <header>
-                        <LayoutNav effect={true} static={true} />
-                    </header>
-                    <main className="content">
-                        <Sidebar location={location} />
-                        <div className="sidebar-offset">
-                            <header>
-                                <div className="clay-site-container container-fluid">
-                                    <h1>{title}</h1>
-                                </div>
-                            </header>
-
+                <header>
+                    <LayoutNav effect={true} static={true} />
+                </header>
+                <main className="content">
+                    <Sidebar location={location} />
+                    <div className="sidebar-offset">
+                        <header>
                             <div className="clay-site-container container-fluid">
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <article>
-                                            <MDXRenderer
-                                                components={{
-                                                    h1: Typography.H1,
-                                                    h2: Typography.H2,
-                                                    h3: Typography.H3,
-                                                    h4: Typography.H4,
-                                                    p: Typography.P,
-                                                }}
-                                            >
-                                                {code.body}
-                                            </MDXRenderer>
-                                        </article>
-                                    </div>
+                                <h1>{title}</h1>
+                            </div>
+                        </header>
+
+                        <div className="clay-site-container container-fluid">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <article>
+                                        <MDXRenderer
+                                            components={{
+                                                h1: Typography.H1,
+                                                h2: Typography.H2,
+                                                h3: Typography.H3,
+                                                h4: Typography.H4,
+                                                p: Typography.P,
+                                            }}
+                                        >
+                                            {code.body}
+                                        </MDXRenderer>
+                                    </article>
                                 </div>
                             </div>
-
-                            <SimpleFooter editContentURL={process.env.EDIT_CONTENT_URL} issuesURL={process.env.ISSUES_URL} slug={this.props["*"]}/>
                         </div>
-                    </main>
-                </div>
-            </Auth>
+
+                        <SimpleFooter editContentURL={process.env.EDIT_CONTENT_URL} issuesURL={process.env.ISSUES_URL} slug={this.props["*"]}/>
+                    </div>
+                </main>
+            </div>
         );
     }
 }
@@ -99,7 +89,6 @@ export const pageQuery = graphql`
             timeToRead
             frontmatter {
                 title
-                needsAuth
             }
             code {
                 body

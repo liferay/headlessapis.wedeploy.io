@@ -15,7 +15,6 @@ module.exports = exports.onCreateNode = ({ node, actions, getNode}) => {
 			banner,
 			stepNumber,
 			short,
-			needsAuth,
 			updates,
 			url
 		} = node.frontmatter;
@@ -105,13 +104,6 @@ module.exports = exports.onCreateNode = ({ node, actions, getNode}) => {
 			name: 'short',
 			value: short || '',
 		});
-
-		createNodeField({
-			node,
-			name: 'needsAuth',
-			value: needsAuth || 0,
-		});
-
 		createNodeField({
 			node,
 			name: 'updates',

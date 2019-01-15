@@ -219,20 +219,6 @@
 			}
 		}
 
-		.lexicon-icon-logout {
-			fill: #DA3A35;
-			fill-opacity: 1;
-			stroke: #FFF;
-			stroke-width: 55px;
-
-			&:hover {
-				fill-opacity: 1;
-				stroke: #900;
-				stroke-opacity: 0.5;
-				stroke-width: 25px;
-			}
-		}
-
 		@keyframes exclamationHover {
 			0% {
 				transform: scale(1);

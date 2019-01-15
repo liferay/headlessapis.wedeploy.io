@@ -16,7 +16,6 @@ module.exports = ({actions, stage}) => {
 						path.resolve(__dirname, '../node_modules/clay-dropdown'),
 						path.resolve(__dirname, '../node_modules/clay-tooltip'),
 						path.resolve(__dirname, '../node_modules/metal-clipboard'),
-						path.resolve(__dirname, '../node_modules/wedeploy')
 					],
 					loader: 'null-loader',
 				},
