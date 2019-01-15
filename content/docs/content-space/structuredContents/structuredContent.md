@@ -2,7 +2,7 @@
 mainPage: false
 title: Structured Content
 description: Structured Content Endpoint documentation
-weight: 2
+order: 1
 ---
 
 ## Model

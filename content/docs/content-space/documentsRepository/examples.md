@@ -1,7 +1,7 @@
 ---
 title: Examples
 description: Examples of Calls to Documents Repository API
-weight: 1
+order: 4
 ---
 
 ## Examples

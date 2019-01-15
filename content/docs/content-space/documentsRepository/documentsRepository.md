@@ -1,7 +1,7 @@
 ---
 title: Documents Repository
 description: Documents Repository Endpoint documentation
-weight: 2
+order: 1
 ---
 
 ## Model

@@ -1,7 +1,7 @@
 ---
 title: Workflow Logs
 description: Workflow Logs Endpoint Documentation
-weight: 2
+order: 1
 ---
 
 ## Model

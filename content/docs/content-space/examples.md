@@ -1,7 +1,7 @@
 ---
 title: Examples
 description: Examples of Calls to Content Spaces API
-weight: 1
+order: 7
 ---
 
 ## Examples

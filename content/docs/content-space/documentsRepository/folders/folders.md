@@ -2,7 +2,7 @@
 mainPage: false
 title: "Folders"
 description: "Folders Endpoint documentation"
-weight: 2
+order: 1
 ---
 
 ## Model

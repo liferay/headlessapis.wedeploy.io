@@ -2,7 +2,7 @@
 mainPage: false
 title: Content Structure
 description: Content Structure Endpoint Documentation
-weight: 2
+order: 1
 ---
 
 ## Model

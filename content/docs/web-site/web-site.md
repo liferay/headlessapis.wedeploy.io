@@ -1,7 +1,7 @@
 ---
 title: Web Site
 description: Web Site Endpoint Documentation
-weight: 1
+order: 1
 ---
 
 ## Model

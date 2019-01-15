@@ -2,7 +2,7 @@
 mainPage: false
 title: "Blog Posts"
 description: "Blog posts Endpoint documentation"
-weight: 2
+order: 1
 ---
 
 ## Model

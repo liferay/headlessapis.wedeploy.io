@@ -1,7 +1,7 @@
 ---
 title: Tasks Assigned To Me
 description: Tasks Assigned To Me Endpoint documentation
-weight: 4
+order: 1
 ---
 
 ## Model

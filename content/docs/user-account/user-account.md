@@ -1,7 +1,7 @@
 ---
 title: User Account
 description: User Account Endpoint Documentation
-weight: 1
+order: 1
 ---
 
 ## Model

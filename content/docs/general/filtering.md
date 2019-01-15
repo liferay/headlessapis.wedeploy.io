@@ -2,7 +2,7 @@
 mainPage: false
 title: Filtering
 description: Filtering with Liferay Headless APIs
-weight: 3
+order: 4
 ---
 
 It's often useful to filter large collections for the exact data that you need. Not all collections, however, allow filtering. 

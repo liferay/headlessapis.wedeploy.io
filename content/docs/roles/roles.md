@@ -2,7 +2,7 @@
 mainPage: false
 title: Roles
 description: Roles Endpoint Documentation
-weight: 1
+order: 1
 ---
 
 ## Model

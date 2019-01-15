@@ -1,7 +1,7 @@
 ---
 title: Content Space
 description: Content Space Endpoint documentation
-weight: 2
+order: 1
 ---
 
 ## Model

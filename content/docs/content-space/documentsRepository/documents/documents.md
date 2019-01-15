@@ -2,7 +2,7 @@
 mainPage: false
 title: "Documents"
 description: "Documents Endpoint documentation"
-weight: 2
+order: 1
 ---
 
 ## Model

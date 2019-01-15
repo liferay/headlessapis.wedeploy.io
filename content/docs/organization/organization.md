@@ -2,7 +2,7 @@
 mainPage: false
 title: Organization
 description: Organization Endpoint documentation
-weight: 1
+order: 1
 ---
 
 ## Model

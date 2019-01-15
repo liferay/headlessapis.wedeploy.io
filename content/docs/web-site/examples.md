@@ -1,7 +1,7 @@
 ---
 title: Examples
 description: Examples of Calls to Website API
-weight: 1
+order: 2
 ---
 
 ## Examples

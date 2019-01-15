@@ -2,7 +2,7 @@
 mainPage: false
 title: Initial Navigation to Obtain URLs
 description: Initial Navigation to obtain URLs with Liferay Headless APIs
-weight: 6
+order: 1
 ---
 
 First, you must get a list of the URLs you can make requests to. To get a list of URLs available at the API's entry point, make a request to `/o/api`, the request will include a `_links` object that contains the available URLs. Note that it's important not to hardcode URLs in future requests, as they may change.
