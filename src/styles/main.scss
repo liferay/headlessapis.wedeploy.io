@@ -27,7 +27,3 @@ $input-border-width: 0.0625rem;
 @import "site/site";
 @import "site/content-site";
 @import "site/sidebar-site";
-
-table {
-  @extend .table;
-}
