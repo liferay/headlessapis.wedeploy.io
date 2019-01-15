@@ -49,7 +49,7 @@ export default class Blog extends Component {
                                         <div className="intro blog-intro text-center col">
                                             <div className="container-fluid container-fluid-max-lg">
                                                 <h1 className="h1">Blog</h1>
-                                                <h2 className="h3">Where good ideas come from</h2>
+                                                <h2 className="h3">Read our latest stories</h2>
                                             </div>
                                         </div>
                                     </div>
