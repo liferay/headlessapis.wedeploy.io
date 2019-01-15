@@ -9,19 +9,19 @@ weight: 2
 
 The following fields are currently supported for this model:
 
-* **name**: The form name.
-* **defaultLanguage**: The form default language.
-* **description**: The form description.
-* **availableLanguages**: The form available languages.
-* **dateCreated**: The form creation date.
+* **name**: The form's name.
+* **defaultLanguage**: The form's default language.
+* **description**: The form's description.
+* **availableLanguages**: The form's available languages.
+* **dateCreated**: The form's creation date.
 * **dateModified**: The date the form was last modified.
 
 This model also contains these links:
 
-* **contentSpace**:  The content space that the form belongs to.
+* **contentSpace**: The content space that the form belongs to.
 * **creator**: The user who created the form.
-* **structure**: The structure that the form was built.
-* **formRecords**: The form records.
+* **structure**: The structure that built the form.
+* **formRecords**: The form's records.
 
 ## Example
 
@@ -29,7 +29,7 @@ This API supports [pagination](/docs/general/pagination.html).
 
 In the response, the `_embedded` section contains the `Form` key. This key contains the list of forms.
 
-Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the structured content belongs to: 
+Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the form belongs to: 
 
 ```bash request
 curl --request GET \

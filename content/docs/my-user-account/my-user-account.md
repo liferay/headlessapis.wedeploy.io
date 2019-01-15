@@ -1,41 +1,41 @@
 ---
 mainPage: false
 title: My User Account
-description: My User Account Endpoint documentation
+description: My User Account Endpoint Documentation
 weight: 1
 ---
 
 ## Model
 
-The following fields are currently supported for this model:
+This model supports these fields: 
 
-* **birthDate**: the date of birth of the user.
-* **alternateName**: the alias of the user.
-* **dashboardURL**: the user's dashboard URL.
-* **email**: the user's email address.
-* **familyName**: the user's last name.
-* **givenName**: the user's name.
-* **name**: the user's full name.
-* **profileURL**: the user's profile URL.
+* **birthDate**: The user's date of birth.
+* **alternateName**: The user's alias.
+* **dashboardURL**: The user's dashboard URL.
+* **email**: The user's email address.
+* **familyName**: The user's last name.
+* **givenName**: The user's name.
+* **name**: The user's full name.
+* **profileURL**: The user's profile URL.
 
 This model also contains these links:
 
-* **roles**: the user's roles collection.
-* **myOrganizations**: the list of organizations that the user is member.
-* **myWebSites**: the list of web sites that the user is member.
-* **tasksAssignedToMe**: the list of the tasks assigned to the user.
-* **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
+* **roles**: The user's roles.
+* **myOrganizations**: The organizations the user belongs to.
+* **myWebSites**: The web sites the user belongs to.
+* **tasksAssignedToMe**: The tasks assigned to the user.
+* **tasksAssignedToMyRoles**: The tasks assigned to the user's roles.
 
 And this model also contains contact information:
 
-* **address**: the list of postal addresses of the user.
-* **email**: the list of additional email addresses of the user.
-* **telephone**: the list of telephones of the user.
-* **webUrl**: the list of user's webs.
+* **address**: The user's postal addresses.
+* **email**: The user's email addresses.
+* **telephone**: The user's telephone numbers.
+* **webUrl**: The user's URLs.
 
 ## Example
 
-In the response, the `_embedded` section contains the `Liferay:UserAccount` key. This key contains the user logged.
+In the response, the `_embedded` section contains the `Liferay:UserAccount` key. This key contains the logged-in user.
 
 Here's an example of a request to this endpoint:
 
@@ -118,6 +118,6 @@ curl --request GET \
 }
 ```
 
-When navigating through the element, the link to the entity can be found with the rel `self`.
+Note that the `self` rel contains the link to the entity.
 
 You can find more examples [here](/docs/my-user-account/examples.html).

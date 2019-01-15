@@ -1,7 +1,7 @@
 ---
 mainPage: false
 title: Examples
-description: Examples of Calls to Content Structure API
+description: Examples of Calls to the Content Structure API
 weight: 1
 ---
 

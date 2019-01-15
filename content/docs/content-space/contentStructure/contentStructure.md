@@ -1,7 +1,7 @@
 ---
 mainPage: false
 title: Content Structure
-description: Content Structure Endpoint documentation
+description: Content Structure Endpoint Documentation
 weight: 2
 ---
 
@@ -9,10 +9,10 @@ weight: 2
 
 The following fields are currently supported for this model:
 
-* **description**: The structure title.
-* **name**: The structure name.
-* **availableLanguages**: The structure available languages.
-* **dateCreated**: The structure creation date.
+* **description**: The structure's title.
+* **name**: The structure's name.
+* **availableLanguages**: The structure's available languages.
+* **dateCreated**: The structure's creation date.
 * **dateModified**: The date the structure was last modified.
 
 This model also contains these links:

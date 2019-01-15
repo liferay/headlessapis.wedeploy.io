@@ -1,7 +1,7 @@
 ---
 mainPage: false
 title: Examples
-description: Examples of Calls to Forms API
+description: Examples of Calls to the Forms API
 weight: 1
 ---
 

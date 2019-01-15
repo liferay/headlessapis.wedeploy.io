@@ -1,13 +1,13 @@
 ---
 mainPage: false
 title: Roles
-description: Roles Endpoint documentation
+description: Roles Endpoint Documentation
 weight: 1
 ---
 
 ## Model
 
-The following fields are currently supported for this model: 
+This model supports these fields:
 
 * **name**: The role's name.
 * **dateCreated**: The role's creation date.

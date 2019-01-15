@@ -6,32 +6,32 @@ weight: 4
 
 ## Model
 
-The following fields are currently supported for this model:
+This model supports these fields:
 
-* **completed**: whether the workflow task is completed or not.
-* **dateCompleted**: completion date of the workflow task.
-* **dateCreated**: creation date of the workflow task.
-* **dueDate**: if exists, expiration date of the workflow task.
+* **completed**: Whether the workflow task is complete.
+* **dateCompleted**: The workflow task's completion date.
+* **dateCreated**: The workflow task's creation date.
+* **dueDate**: The workflow task's expiration date, if it exists.
 * **definitionName**: 
 * **description**:
 * **name**:
-* **transitions**: name of the possible transitions of the workflow task.
+* **transitions**: The workflow task's possible transitions.
 
 This model also contains these links:
 
-* **logs**: `WorkflowLog` list of a workflow task. You can read more about this in the following [link](/docs/my-user-account/workflow-tasks/workflow-logs/index.html).
+* **logs**: The workflow task's `WorkflowLog` list. For more information, see the [workflow logs documentation](/docs/my-user-account/workflow-tasks/workflow-logs/index.html).
 
-The model also have the information about the object involved:
+This model also has information about the object involved in the workflow task:
 
-* **object**: indicates the object involved in the workflow task.
-* **identifier**: the object's URL.
-* **resourceType**: the object's type (e.g.: `Comment` or `BlogPosting`).
+* **object**: The object.
+* **identifier**: The object's URL.
+* **resourceType**: The object's type (e.g., `Comment`, `BlogPosting`, etc.).
 
 ## Example
 
 This API supports [pagination](/docs/general/pagination.html).
 
-The response will contain inside the `_embedded` section, the workflow task under the key `WorkflowTask`.
+In the response, the `_embedded` section contains the `WorkflowTask` key. This key contains the workflow task.
 
 Here's an example of a request to this endpoint:
 
