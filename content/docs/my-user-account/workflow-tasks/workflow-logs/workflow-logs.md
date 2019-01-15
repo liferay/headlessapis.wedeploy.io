@@ -1,31 +1,31 @@
 ---
 title: Workflow Logs
-description: Workflow Logs Endpoint documentation
+description: Workflow Logs Endpoint Documentation
 weight: 2
 ---
 
 ## Model
 
-The following fields are currently supported for this model:
+This model supports these fields:
 
-* **dateCreated**: creation date of the workflow log.
-* **commentLog**: comment of the workflow log.
-* **previousState**: if exists, state before the current one.
-* **state**: state of the workflow log.
-* **type**: workflow log type (e.g.: `TASK_ASSIGNMENT`, `TASK_COMPLETION`, `TASK_UPDATE`).
+* **dateCreated**: The workflow log's creation date.
+* **commentLog**: The workflow log's comment.
+* **previousState**: The state before the current state in the workflow log (if that state exists).
+* **state**: The workflow log's state.
+* **type**: The workflow log's type (e.g., `TASK_ASSIGNMENT`, `TASK_COMPLETION`, `TASK_UPDATE`).
 
 This model also contains these links:
 
 * **auditPerson**: 
-* **person**: person assigned to the workflow task.
-* **previousPerson**: if exists, person assigned before the current one.
-* **task**: workflow task which the log belongs.
+* **person**: The person assigned to the workflow task.
+* **previousPerson**: The person assigned to the workflow task prior to the current person.
+* **task**: The workflow task to which the workflow log belongs.
 
 ## Example
 
 This API supports [pagination](/docs/general/pagination.html).
 
-In the response, the `_embedded` section contains the `WorkflowLog` key. This key contains the workflow task activity.
+In the response, the `_embedded` section contains the `WorkflowLog` key. This key contains the workflow log.
 
 Here's an example of a request to this endpoint:
 

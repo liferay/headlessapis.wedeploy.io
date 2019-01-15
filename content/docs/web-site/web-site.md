@@ -1,12 +1,12 @@
 ---
 title: Web Site
-description: Web Site Endpoint documentation
+description: Web Site Endpoint Documentation
 weight: 1
 ---
 
 ## Model
 
-The following fields are currently supported for this model:
+This model supports these fields:
 
 * **name**: The website's name.
 * **availableLanguages**: The website's available languages.

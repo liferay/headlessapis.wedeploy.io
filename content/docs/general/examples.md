@@ -11,11 +11,11 @@ weight: 1
 |------------------------------------------------------------------|---------------------------------------------------------|
 | [Blogs](/docs/content-space/blogPosts/)                          | https://documenter.getpostman.com/view/6033677/RznCpeaY |
 | [Content Spaces](/docs/content-space/)                           | https://documenter.getpostman.com/view/6060345/RznBPgKy |
-| Content Structure                                                | https://documenter.getpostman.com/view/6060345/RznCpeet |
+| [Content Structure](/docs/content-space/contentStructure/)       | https://documenter.getpostman.com/view/6060345/RznCpeet |
 | [Documents](/docs/content-space/documentsRepository/documents/)  | https://documenter.getpostman.com/view/5930647/RznFqJca |
 | [Documents Repository](/docs/content-space/documentsRepository/) | https://documenter.getpostman.com/view/5930647/Rzn9sgTb |
 | [Folders](/docs/content-space/documentsRepository/folders/)      | https://documenter.getpostman.com/view/5930647/RznCqeii |
-| Forms                                                            | https://documenter.getpostman.com/view/6029310/RznFqdwg |
+| [Forms](/docs/content-space/forms/)                              | https://documenter.getpostman.com/view/6029310/RznFqdwg |
 | [My User Account](/docs/my-user-account/)                        | https://documenter.getpostman.com/view/6029310/RznEMfGh |
 | [Organization](/docs/organization/)                              | https://documenter.getpostman.com/view/6060345/RznFqdwm |
 | [Roles](/docs/roles/)                                            | https://documenter.getpostman.com/view/6060345/RznFqe2C |
@@ -56,7 +56,7 @@ Before executing the examples, you must follow these steps:
 |----------------------|----------------------------------------------------------------------------------------------------------------------|
 | Blogs                | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/323d7a1b588133b01b5d) |
 | Content Spaces       | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/625390af8a347edae5c9) |
-| Content Structures   | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d) |
+| Content Structure    | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/203e52fd8ab013b9273d) |
 | Documents            | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a46ae881ce951ee6262b) |
 | Documents Repository | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d3e58a5899c098a21ebb) |
 | Folders              | [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/dce4a5ad7b52311b5fb3) |

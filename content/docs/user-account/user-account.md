@@ -1,30 +1,30 @@
 ---
 title: User Account
-description: User Account Endpoint documentation
+description: User Account Endpoint Documentation
 weight: 1
 ---
 
 ## Model
 
-The following fields are currently supported for this model:
+This model supports these fields: 
 
-* **birthDate**: the date of birth of the user.
-* **alternateName**: the alias of the user.
-* **dashboardURL**: the user's dashboard URL.
-* **email**: the user's email address.
-* **familyName**: the user's last name.
-* **gender**: the user's gender.
-* **givenName**: the user's name.
-* **name**: the user's full name.
-* **profileURL**: the user's profile URL.
+* **birthDate**: The user's date of birth.
+* **alternateName**: The user's alias.
+* **dashboardURL**: The user's dashboard URL.
+* **email**: The user's email address.
+* **familyName**: The user's last name.
+* **gender**: The user's gender.
+* **givenName**: The user's name.
+* **name**: The user's full name.
+* **profileURL**: The user's profile URL.
 
 This model also contains these links:
 
-* **roles**: the collection of roles that the user has assigned.
-* **myOrganizations**: the list of organizations that the user is member of.
-* **myWebSites**: the list of web sites that the user is member of.
-* **tasksAssignedToMe**: the list of the tasks assigned to the user.
-* **tasksAssignedToMyRoles**: the list of the tasks assigned to the user's roles.
+* **roles**: The user's roles.
+* **myOrganizations**: The organizations the user belongs to.
+* **myWebSites**: The web sites the user belongs to.
+* **tasksAssignedToMe**: The tasks assigned to the user.
+* **tasksAssignedToMyRoles**: The tasks assigned to the user's roles.
 
 ## Example
 

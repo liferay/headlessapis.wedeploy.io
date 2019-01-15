@@ -1,10 +1,10 @@
 ---
 mainPage: false
 title: Examples
-description: Examples of Calls to the User Account API
+description: Examples of Calls to the Content Structure API
 weight: 1
 ---
 
-### Examples
+## Examples
 
 You can find more examples [here](/docs/general/examples.html).

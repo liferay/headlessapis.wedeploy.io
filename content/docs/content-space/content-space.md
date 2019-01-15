@@ -26,7 +26,7 @@ This model also contains these links:
 
 ## Example
 
-In the response response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces.
+In the response, the `_embedded` section contains the `ContentSpace` key. This key contains the list of content spaces.
 
 Here's an example of a request to this endpoint:
 
