@@ -27,12 +27,14 @@ In the response, the `_embedded` section contains the `Structure` key. This key 
 
 Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the structured content belongs to: 
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/content-structures
 ```
 
-```json response
+```json
+//display-name{response}
 {
   "total": 2,
   "count": 2,

@@ -43,12 +43,14 @@ In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of th
 
 In the response, the `_embedded` section contains the `Liferay:Document` key. This key contains the list of documents:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/document?page=1&per_page=1
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 1,
     "count": 1,

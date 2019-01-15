@@ -19,12 +19,14 @@ In the response, the `_links` section contains the links to `documents` and `fol
 
 Here's an example of a request to this endpoint: 
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "_links": {
         "self": {

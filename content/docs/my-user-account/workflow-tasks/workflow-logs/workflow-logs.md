@@ -29,12 +29,14 @@ In the response, the `_embedded` section contains the `WorkflowLog` key. This ke
 
 Here's an example of a request to this endpoint:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/workflow-tasks/36564/workflow-logs 
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 1,
     "count": 1,

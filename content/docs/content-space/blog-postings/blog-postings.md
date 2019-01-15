@@ -35,12 +35,14 @@ In the response, the `_embedded` section contains the `BlogPosting` key. This ke
 
 Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the blog post belongs to:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/blog-posting?page=1&per_page=1
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 2,
     "count": 2,

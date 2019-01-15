@@ -30,12 +30,14 @@ In the response, the `_embedded` section contains the `Form` key. This key conta
 
 Here's an example of a request to this endpoint, where `{{contentSpaceId}}` is the ID of the content space that the form belongs to: 
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/content-space/{{contentSpaceId}}/form
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 2,
     "count": 2,

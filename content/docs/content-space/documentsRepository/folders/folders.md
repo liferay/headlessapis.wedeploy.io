@@ -25,12 +25,14 @@ This API supports [pagination](/docs/general/pagination.html).
 
 In the following requests to this endpoint, `{{contentSpaceId}}` is the ID of the content space that the folder belongs to.
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/documents-repository/{{contentSpaceId}}/folder?page=1&per_page=1
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 1,
     "count": 1,
