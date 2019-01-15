@@ -37,7 +37,7 @@ export default (props) => (
                             }
                             frontmatter {
                                 title
-                                date
+                                date(formatString: "MMMM DD, YYYY")
                                 description
                                 author
                                 url

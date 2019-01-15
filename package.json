@@ -20,10 +20,10 @@
     "node": ">= 8"
   },
   "scripts": {
-    "dev": "rimraf public .cache && gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b wedeploy",
+    "dev": "rimraf public .cache && gatsby develop --open",
+    "deploy": "gatsby build && cd public && we deploy -p headless",
     "develop": "rimraf public .cache && gatsby develop",
-    "start": "npm run develop",
+    "start": "npm run develop --open",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },

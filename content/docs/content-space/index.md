@@ -1,7 +1,6 @@
 ---
-layout: "redirect"
 redirect: "/docs/content-space/content-space.html"
 title: "Content Space"
-mainPage: false
-weight: 1
+order: 5
+alwaysActive: true
 ---

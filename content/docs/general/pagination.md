@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: Pagination
 description: Pagination with Liferay Headless APIs
-weight: 4
+order: 3
 ---
 
 Responses containing collections are paginated. To customize the number of elements per page or request a specific page, use the optional parameters `per_page` and `page`, respectively. 

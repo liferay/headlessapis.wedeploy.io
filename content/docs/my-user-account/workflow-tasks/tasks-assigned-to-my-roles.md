@@ -1,7 +1,7 @@
 ---
 title: Tasks Assigned To My Roles
 description: Tasks Assigned To My Roles Endpoint Documentation
-weight: 4
+order: 2
 ---
 
 ## Model
@@ -34,12 +34,14 @@ In the response, the `_embedded` section contains the `WorkflowTask` key. This k
 
 Here's an example of a request to this endpoint:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-my-roles
 ```
 
-```json response
+```json
+//display-name{response}
 {
    "total": 1,
    "count": 1,

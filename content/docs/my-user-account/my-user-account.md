@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: My User Account
 description: My User Account Endpoint Documentation
-weight: 1
+order: 1
 ---
 
 ## Model
@@ -39,12 +38,14 @@ In the response, the `_embedded` section contains the `Liferay:UserAccount` key.
 
 Here's an example of a request to this endpoint:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/my-user-account
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 1,
     "count": 1,

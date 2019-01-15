@@ -1,8 +1,7 @@
 ---
-mainPage: false
 title: Supported Hypermedia Types
 description: Supported Hypermedia types with Liferay Headless APIs
-weight: 6
+order: 2
 ---
 
 ## Supported Hypermedia Types
@@ -11,7 +10,8 @@ The default hypermedia response format is JSON-LD (`application/ld+json`). To us
 
 For example, this specifies the JSON-HAL format:
 
-```http request
+```http
+//display-name{request}
 Accept: application/hal+json
 ```
 
@@ -29,14 +29,16 @@ curl --request GET \
   --header 'Accept: application/json'
 
 ```
-```json JSON-LD
+```json
+//display-name{JSON-LD}
 curl --request GET \
   --url http://localhost:8080/o/api/content-space?page=1&per_page=1\
   --header 'Accept: application/ld+json'
 
 ```
 
-```json HAL
+```json
+//display-name{HAL}
 curl --request GET \
   --url http://localhost:8080/o/api/content-space?page=1&per_page=1\
   --header 'Accept: application/hal+json'

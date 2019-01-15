@@ -1,7 +1,7 @@
 ---
 title: Web Site
 description: Web Site Endpoint Documentation
-weight: 1
+order: 1
 ---
 
 ## Model
@@ -30,12 +30,14 @@ In the response, the `_embedded` section contains the `WebSite` key. This key co
 
 Here's an example of a request to this endpoint: 
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/web-site?page=1&per_page=1
 ```
 
-```json response
+```json
+//display-name{response}
 {
     "total": 18,
     "count": 1,

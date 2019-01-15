@@ -1,7 +1,7 @@
 ---
 title: Tasks Assigned To Me
 description: Tasks Assigned To Me Endpoint documentation
-weight: 4
+order: 1
 ---
 
 ## Model
@@ -35,12 +35,14 @@ In the response, the `_embedded` section contains the `WorkflowTask` key. This k
 
 Here's an example of a request to this endpoint:
 
-```bash request
+```bash
+//display-name{request}
 curl --request GET \
   --url http://localhost:8080/o/api/r/workflow-tasks/assigned-to-me
 ```
 
-```json response
+```json
+//display-name{response}
 {
    "total": 1,
    "count": 1,

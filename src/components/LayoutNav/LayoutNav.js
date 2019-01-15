@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import { Link } from "gatsby";
 import classnames from 'classnames';
 
-import { isLoggedIn, logout } from '../../services/auth';
-
 class LayoutNav extends Component {
     constructor() {
         super();
@@ -27,17 +25,6 @@ class LayoutNav extends Component {
         } else {
             this.refs.navElement.classList.remove('scroll');
         }
-    }
-
-    _handleLogout() {
-        logout()
-            .then(() => {
-                this.forceUpdate();
-            })
-            .catch((error) => {
-                alert(error);
-                window.location.reload();
-            });
     }
 
     componentDidMount() {
@@ -65,7 +52,7 @@ class LayoutNav extends Component {
             <nav ref="navElement" className={styles}>
                 <div className="container-fluid container-fluid-max-xl">
                     <Link to="/" className="navbar-brand">
-                        <img className="logo mr-2" src="/images/home/liferay_logo.svg" alt="" />
+                        <img className="logo mr-2" src="/images/logos/project_logo.png" alt="" />
                         <span className="title align-middle">{process.env.PROJECT_NAME}</span>
                     </Link>
                     <ul className="navbar-nav ml-auto">
@@ -73,16 +60,14 @@ class LayoutNav extends Component {
                             <Link className="nav-link ml-3" to="/docs/">Docs</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link ml-3" to="/blog/">Blog</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link ml-3" to="/onboarding/">Onboarding</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link ml-3" to="/updates/">Updates</Link>
                         </li>
-                        {isLoggedIn() ? (
-                            <li className="nav-item">
-                                <Link className="nav-link ml-3" to="#" onClick={this._handleLogout.bind(this)}>Logout</Link>
-                            </li>
-                        ) : ''}
                         <li className="nav-item">
                             <a className="mx-3 mr-lg-0" href={process.env.GITHUB_REPO}  target="_blank" rel="noopener noreferrer">
                                 <img src="/images/home/GitHub-Mark-64px.svg" alt="" />
