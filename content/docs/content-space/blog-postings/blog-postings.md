@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: "Blog Posts"
 description: "Blog posts Endpoint documentation"
 order: 1

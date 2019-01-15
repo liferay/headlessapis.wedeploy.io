@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Examples
 description: Examples of Calls to Folder API
 order: 2

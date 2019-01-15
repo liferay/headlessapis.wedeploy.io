@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Organization
 description: Organization Endpoint documentation
 order: 1

@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: My User Account
 description: My User Account Endpoint Documentation
 order: 1

@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Examples
 description: Examples with Liferay Headless APIs
 order: 6

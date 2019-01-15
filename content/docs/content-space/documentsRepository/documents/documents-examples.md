@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Examples
 description: Examples of Calls to Documents API
 order: 2

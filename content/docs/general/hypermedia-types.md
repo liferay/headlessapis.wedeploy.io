@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Supported Hypermedia Types
 description: Supported Hypermedia types with Liferay Headless APIs
 order: 2

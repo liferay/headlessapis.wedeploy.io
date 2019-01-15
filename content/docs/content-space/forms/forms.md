@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Forms
 description: Forms Endpoint documentation
 order: 1

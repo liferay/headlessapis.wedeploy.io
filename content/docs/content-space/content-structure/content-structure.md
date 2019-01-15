@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Content Structure
 description: Content Structure Endpoint Documentation
 order: 1

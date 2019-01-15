@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Filtering
 description: Filtering with Liferay Headless APIs
 order: 4

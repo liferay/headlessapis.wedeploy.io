@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Roles
 description: Roles Endpoint Documentation
 order: 1

@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Initial Navigation to Obtain URLs
 description: Initial Navigation to obtain URLs with Liferay Headless APIs
 order: 1

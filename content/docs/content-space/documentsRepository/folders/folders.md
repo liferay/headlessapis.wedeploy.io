@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: "Folders"
 description: "Folders Endpoint documentation"
 order: 1

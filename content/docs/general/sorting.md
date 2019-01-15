@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Sorting
 description: Sorting with Liferay Headless APIs
 order: 5

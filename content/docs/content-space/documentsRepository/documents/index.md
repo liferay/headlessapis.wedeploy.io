@@ -1,6 +1,5 @@
 ---
 redirect: "/docs/content-space/documentsRepository/documents/documents.html"
 title: "Documents"
-mainPage: false
 order: 3
 ---

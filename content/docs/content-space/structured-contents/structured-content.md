@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Structured Content
 description: Structured Content Endpoint documentation
 order: 1

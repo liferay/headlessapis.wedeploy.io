@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: Pagination
 description: Pagination with Liferay Headless APIs
 order: 3

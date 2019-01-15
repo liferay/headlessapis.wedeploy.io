@@ -1,5 +1,4 @@
 ---
-mainPage: false
 title: "Documents"
 description: "Documents Endpoint documentation"
 order: 1
